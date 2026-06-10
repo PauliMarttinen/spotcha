@@ -10090,12 +10090,14 @@
           "name": "Germany",
           "since": 1930,
           "fullName": "Germany",
+          "note": "",
           "id": "019e9879-bb65-72ed-ad23-707d65993435"
         },
         {
           "name": "West Germany",
           "since": 1953,
           "fullName": "West Germany",
+          "note": "",
           "id": "019e9879-bb65-72ed-ad23-747100bb70d7"
         },
         {
@@ -10180,13 +10182,15 @@
           "name": "Czechoslovakia",
           "since": 1920,
           "id": "019e9879-bb65-72ed-ad23-a910b887cf1a",
-          "fullName": "Czechoslovakia"
+          "fullName": "Czechoslovakia",
+          "note": ""
         },
         {
           "name": "Czech Republic",
           "since": 1993,
           "id": "019e9879-bb65-72ed-ad23-afac78ef5550",
-          "fullName": "Czech Republic"
+          "fullName": "Czech Republic",
+          "note": ""
         }
       ],
       "id": "019e9879-bb65-72ed-ad23-b260f5d148cc"
@@ -10211,7 +10215,8 @@
           "name": "Great Britain",
           "since": 1930,
           "fullName": "Great Britain",
-          "id": "019e9879-bb65-72ed-ad23-bc1de99f1a46"
+          "id": "019e9879-bb65-72ed-ad23-bc1de99f1a46",
+          "note": ""
         }
       ],
       "id": "019e9879-bb65-72ed-ad23-c19748aeed47"
@@ -10353,19 +10358,22 @@
           "name": "Yugoslavia",
           "since": 1939,
           "id": "019e9879-bb65-72ed-ad24-176fcaddb9d4",
-          "fullName": "Yugoslavia"
+          "fullName": "Yugoslavia",
+          "note": ""
         },
         {
           "name": "Serbia and Montenegro",
           "since": 2003,
           "id": "019e9879-bb65-72ed-ad24-19aefd87622d",
-          "fullName": "Serbia and Montenegro"
+          "fullName": "Serbia and Montenegro",
+          "note": ""
         },
         {
           "name": "Serbia",
           "since": 2007,
           "id": "019e9879-bb65-72ed-ad24-1d2d71f9dbe4",
-          "fullName": "Serbia"
+          "fullName": "Serbia",
+          "note": ""
         }
       ],
       "id": "019e9879-bb65-72ed-ad24-2089be36955b"
@@ -10759,6 +10767,8 @@
       "names": [
         {
           "name": "Bosnia and Herzegovina",
+          "fullName": "Bosnia and Herzegovina",
+          "note": "",
           "since": 2008,
           "id": "019e9879-bb65-72ed-ad25-1048fb91d4e4"
         }
@@ -10770,6 +10780,8 @@
       "names": [
         {
           "name": "United Arab Emirates",
+          "fullName": "United Arab Emirates",
+          "note": "",
           "since": 2010,
           "id": "019e9879-bb65-72ed-ad25-1857de01a46b"
         }
