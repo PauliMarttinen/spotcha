@@ -12,6 +12,8 @@ export type Team = {
   names: Name[]
 };
 
+export type Teams = Record<string, Team>;
+
 export type League = {
   id: string,
   name: string,
@@ -29,6 +31,6 @@ export type Season = {
 };
 
 export type DataFormat = {
-  teams: Team[],
+  teams: Teams,
   seasons: Season[]
 };

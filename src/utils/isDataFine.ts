@@ -52,7 +52,7 @@ const countDuplicateAliases = (aliases: string[]) => {
   }
   return duplicates.length;
 };
-
+/* 
 const countEmptyAliases = (data: DataFormat) => {
   const aliasesInSeasons = new Set<string>();
   data.seasons.forEach((season: Season) => {
@@ -82,11 +82,11 @@ const countEmptyAliases = (data: DataFormat) => {
   }
   
   return emptyAliases.length;
-};
+}; */
 
 const isDataFine = (data: DataFormat): boolean => {
   if (countDuplicateAliases(data.teams.map((team: Team) => team.alias)) > 0) return false;
-  if (countEmptyAliases(data) > 0) return false;
+  /* if (countEmptyAliases(data) > 0) return false; */
   if (countDuplicateIds(data) > 0) return false;
   if (countUnexplainedCancelledSeasons(data.seasons) > 0) return false;
   console.log("Data entered is fine.")
