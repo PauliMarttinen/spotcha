@@ -1,0 +1,92 @@
+{
+  "teams": [
+    {
+      "alias": "Pollo",
+      "names": [
+        {
+          "name": "Pollo",
+          "fullName": "Original Pollo",
+          "since": 0,
+          "notes": "pOLLO",
+          "id": "019e9872-b609-77cd-91c6-a96e212ca934"
+        },
+        {
+          "name": "Pollo Pollo",
+          "fullName": "Second Pollo",
+          "since": 0,
+          "notes": "pOLLO",
+          "id": "019e9872-b609-77cd-91c6-ae9e8b0cd32b"
+        }
+      ],
+      "id": "019e9872-b609-77cd-91c6-b1c5d76067f4"
+    },
+    {
+      "alias": "Cocodrilo",
+      "names": [
+        {
+          "name": "Cocodrilo",
+          "fullName": "Full Cocodrilo",
+          "since": 0,
+          "notes": "cROCODILO",
+          "id": "019e9872-b609-77cd-91c6-b5b00b106282"
+        }
+      ],
+      "id": "019e9872-b609-77cd-91c6-ba106d601ecf"
+    },
+    {
+      "alias": "Prööt",
+      "names": [
+        {
+          "name": "Prööt",
+          "fullName": "Forceful Prööt",
+          "since": 0,
+          "notes": "prööts",
+          "id": "019e9872-b609-77cd-91c6-bdc4e827f481"
+        }
+      ],
+      "id": "019e9872-b609-77cd-91c6-c19578a8764d"
+    }
+  ],
+  "seasons": [
+    {
+      "year": 123,
+      "leagues": [
+        {
+          "tier": 1,
+          "teams": [
+            [
+              "Pollo"
+            ],
+            [
+              "Cocodrilo"
+            ],
+            [
+              "Prööt"
+            ]
+          ]
+        }
+      ],
+      "id": "019e9872-b609-77cd-91c6-a003ea209c3f"
+    },
+    {
+      "year": 124,
+      "leagues": [
+        {
+          "tier": 1,
+          "teams": [
+            [
+              "Cocodrilo"
+            ],
+            [
+              "Pollo"
+            ],
+            [
+              "Prööt"
+            ]
+          ]
+        }
+      ],
+      "id": "019e9872-b609-77cd-91c6-a4b33454ecd7"
+    }
+  ]
+}

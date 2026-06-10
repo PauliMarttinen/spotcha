@@ -1,0 +1,2551 @@
+{
+  "teams": [
+    {
+      "id": "08d553b9-8b06-44c8-bd3e-f7ce69452d2c",
+      "alias": "TPS",
+      "names": [
+        {
+          "name": "TPS",
+          "fullName": "Turun Palloseura",
+          "since": 1922,
+          "id": "019e987b-a1ae-705e-8628-25f3302598d3"
+        }
+      ]
+    },
+    {
+      "id": "6318913d-467c-4637-a6b9-0e180493e1c2",
+      "alias": "Tappara",
+      "names": [
+        {
+          "name": "Tappara",
+          "since": 1955,
+          "id": "019e987b-a1ae-705e-8628-2a568aa7e5cc"
+        }
+      ]
+    },
+    {
+      "id": "e43a9aa9-b95c-45f6-a1bb-232d68835ccf",
+      "alias": "Ässät",
+      "names": [
+        {
+          "name": "Ässät",
+          "since": 1967,
+          "id": "019e987b-a1ae-705e-8628-2cb8645fcc00"
+        }
+      ]
+    },
+    {
+      "id": "7faf876f-a6d3-4a5d-8c71-4568c962e7d4",
+      "alias": "HIFK",
+      "names": [
+        {
+          "name": "HIFK",
+          "fullName": "Idrottsföreningen Kamraterna Helsinki",
+          "since": 1897,
+          "id": "019e987b-a1ae-705e-8628-309c8f934cb3"
+        }
+      ]
+    },
+    {
+      "id": "6d384c07-f4f5-4d33-9e3a-ebb800537ff1",
+      "alias": "Lukko",
+      "names": [
+        {
+          "name": "Lukko",
+          "since": 1936,
+          "id": "019e987b-a1ae-705e-8628-35ac272ea5e9"
+        }
+      ]
+    },
+    {
+      "id": "8a4dcf3d-5286-4919-ba1f-5ed953b11a5d",
+      "alias": "Jokerit",
+      "names": [
+        {
+          "name": "Jokerit",
+          "since": 1967,
+          "id": "019e987b-a1ae-705e-8628-39f96224f243"
+        }
+      ]
+    },
+    {
+      "id": "a241a228-0149-41e3-b0d7-f20b079cc143",
+      "alias": "Ilves",
+      "names": [
+        {
+          "name": "Ilves",
+          "since": 1931,
+          "id": "019e987b-a1ae-705e-8628-3d5f56522b33"
+        }
+      ]
+    },
+    {
+      "id": "c57a1f50-dcaf-46c1-88ac-c415695eb350",
+      "alias": "KooVee",
+      "names": [
+        {
+          "name": "Kilpa-Veljet",
+          "since": 1929,
+          "id": "019e987b-a1ae-705e-8628-43d695b706af"
+        },
+        {
+          "name": "Koovee",
+          "since": 2010,
+          "id": "019e987b-a1ae-705e-8628-44dd8488c964"
+        }
+      ]
+    },
+    {
+      "id": "39ed9c53-aa3d-4674-ad05-e6666c52146f",
+      "alias": "FPS",
+      "names": [
+        {
+          "name": "FoPS",
+          "fullName": "Forssan Palloseura",
+          "since": 1931,
+          "id": "019e987b-a1ae-705e-8628-49cce4591fa7"
+        },
+        {
+          "name": "FPS",
+          "fullName": "Forssan Palloseura",
+          "since": 1993,
+          "id": "019e987b-a1ae-705e-8628-4e6fd74aec57"
+        }
+      ]
+    },
+    {
+      "id": "7789df5b-a66e-41cb-a5ce-402cee329a46",
+      "alias": "Sport",
+      "names": [
+        {
+          "name": "Sport",
+          "since": 1939,
+          "id": "019e987b-a1ae-705e-8628-537749d6003e"
+        }
+      ]
+    },
+    {
+      "id": "cef70fe1-22e7-476d-9ee5-cfa4057cac0e",
+      "alias": "Pelicans",
+      "names": [
+        {
+          "name": "Viipurin Reipas",
+          "since": 1891,
+          "id": "019e987b-a1ae-705e-8628-553fda581fe9"
+        },
+        {
+          "name": "Lahden Reipas",
+          "since": 1964,
+          "id": "019e987b-a1ae-705e-8628-59849a83986c"
+        },
+        {
+          "name": "Kiekkoreipas",
+          "since": 1975,
+          "id": "019e987b-a1ae-705e-8628-5d7c994449e9"
+        },
+        {
+          "name": "Hockey-Reipas",
+          "since": 1989,
+          "id": "019e987b-a1ae-705e-8628-62bd527d9806"
+        },
+        {
+          "name": "Reipas Lahti",
+          "since": 1992,
+          "id": "019e987b-a1ae-705e-8628-66bdd906c0fb"
+        },
+        {
+          "name": "Pelicans",
+          "since": 1996,
+          "id": "019e987b-a1ae-705e-8628-6b1499dea4d1"
+        }
+      ]
+    },
+    {
+      "id": "9f62a7ca-a358-4bdf-940e-fd9ce36bebfc",
+      "alias": "Kärpät",
+      "names": [
+        {
+          "name": "Kärpät",
+          "since": 1946,
+          "id": "019e987b-a1ae-705e-8628-6f288e8227ef"
+        }
+      ]
+    },
+    {
+      "id": "07042d29-b566-4f18-9d68-cb6a0319a02c",
+      "alias": "SaiPa",
+      "names": [
+        {
+          "name": "SaiPa",
+          "fullName": "Saimaan Pallo",
+          "since": 1948,
+          "id": "019e987b-a1ae-705e-8628-71ac5a7b0f05"
+        }
+      ]
+    },
+    {
+      "id": "39cd68bb-46fd-4377-af16-bc9e9e57b698",
+      "alias": "HPK",
+      "names": [
+        {
+          "name": "HPK",
+          "fullName": "Hämeenlinnan Pallokerho",
+          "since": 1929,
+          "id": "019e987b-a1ae-705e-8628-744c82733272"
+        }
+      ]
+    },
+    {
+      "id": "a2e63949-4528-4e30-96ab-a2bae2d70c64",
+      "alias": "KooKoo",
+      "names": [
+        {
+          "name": "KooKoo",
+          "fullName": "Kouvolan Kiekko -65",
+          "since": 1965,
+          "id": "019e987b-a1ae-705e-8628-78189ffd1c4b"
+        }
+      ]
+    },
+    {
+      "id": "4d31b5ff-ca20-445f-94a0-d6426ceddff8",
+      "alias": "Jukurit",
+      "names": [
+        {
+          "name": "Jukurit",
+          "since": 1970,
+          "id": "019e987b-a1ae-705e-8628-7fe9f291f497"
+        }
+      ]
+    },
+    {
+      "id": "4bccb0b8-54dd-492b-a377-f3b0ba709c8a",
+      "alias": "SaPKo",
+      "names": [
+        {
+          "name": "SaPKo",
+          "fullName": "Savonlinnan Pallokerho",
+          "since": 1929,
+          "id": "019e987b-a1ae-705e-8628-818e58bd0236"
+        }
+      ]
+    },
+    {
+      "id": "0d12345a-cc08-4e51-8d65-930609f090e5",
+      "alias": "PiTa",
+      "names": [
+        {
+          "name": "PiTa",
+          "fullName": "Pitäjänmäen Tarmo",
+          "since": 1925,
+          "id": "019e987b-a1ae-705e-8628-85480c1edcc5"
+        }
+      ]
+    },
+    {
+      "id": "867cdba6-996a-4370-8a91-145a1729c066",
+      "alias": "JYP",
+      "names": [
+        {
+          "name": "JyP",
+          "since": 1923,
+          "id": "019e987b-a1ae-705e-8628-8a579f2abf8e"
+        },
+        {
+          "name": "JyP HT",
+          "since": 1977,
+          "id": "019e987b-a1ae-705e-8628-8c7751c4951c"
+        },
+        {
+          "name": "JYP",
+          "since": 1998,
+          "id": "019e987b-a1ae-705e-8628-917bee123f0a"
+        }
+      ]
+    },
+    {
+      "id": "5d9c4803-ae0e-4be0-8347-706747e5a997",
+      "alias": "JoKP",
+      "names": [
+        {
+          "name": "JoKP",
+          "fullName": "Joensuun Kiekko-Pojat",
+          "since": 1960,
+          "id": "019e987b-a1ae-705e-8628-96d905f2b4b3"
+        },
+        {
+          "name": "Kiekko-Karhut",
+          "since": 1996,
+          "id": "019e987b-a1ae-705e-8628-98b2ba03ed19"
+        },
+        {
+          "name": "Jokipojat",
+          "since": 1999,
+          "id": "019e987b-a1ae-705e-8628-9e5214d85c82"
+        },
+        {
+          "name": "JoKP",
+          "fullName": "Joensuun Kiekko-Pojat",
+          "since": 2021,
+          "id": "019e987b-a1ae-705e-8628-a14aad9bf648"
+        }
+      ]
+    },
+    {
+      "id": "71f635c7-095b-405f-991a-5bda34b7039d",
+      "alias": "K-Espoo",
+      "names": [
+        {
+          "name": "Jäähonka",
+          "since": 1957,
+          "id": "019e987b-a1ae-705e-8628-a4a2ef331174"
+        },
+        {
+          "name": "Kiekko-Espoo",
+          "since": 1984,
+          "id": "019e987b-a1ae-705e-8628-a82fc5c1f7e5"
+        },
+        {
+          "name": "Blues",
+          "since": 1999,
+          "id": "019e987b-a1ae-705e-8628-ac790c657965"
+        },
+        {
+          "name": "Espoo United",
+          "since": 2017,
+          "id": "019e987b-a1ae-705e-8628-b1981d212571"
+        },
+        {
+          "name": "Kiekko-Espoo",
+          "since": 2021,
+          "id": "019e987b-a1ae-705e-8628-b5379225e694"
+        }
+      ]
+    },
+    {
+      "id": "4a336ae1-53ec-4c0d-b6f4-c112f9710624",
+      "alias": "HJK",
+      "names": [
+        {
+          "name": "HJK",
+          "fullName": "Helsingin Jalkapalloklubi",
+          "since": 1907,
+          "id": "019e987b-a1ae-705e-8628-b904fbd10950"
+        }
+      ]
+    },
+    {
+      "id": "1a814e93-8ecc-4174-a913-829835a7f7a1",
+      "alias": "Kiekko-67",
+      "names": [
+        {
+          "name": "Kiekko-67",
+          "since": 1967,
+          "id": "019e987b-a1ae-705e-8628-bfef2f1ca973"
+        }
+      ]
+    },
+    {
+      "id": "53f728f2-896f-4688-8d1e-41a5b4af4f8a",
+      "alias": "Warkis",
+      "names": [
+        {
+          "name": "Valtit",
+          "since": 1983,
+          "id": "019e987b-a1ae-705e-8628-c34fdc01240a"
+        },
+        {
+          "name": "Warkis",
+          "since": 2000,
+          "note": "Year of name uncertain",
+          "id": "019e987b-a1ae-705e-8628-c7ffd3737310"
+        }
+      ]
+    },
+    {
+      "id": "72517cd3-cceb-4fa9-8984-2924ef8cc5bf",
+      "alias": "KalPa",
+      "names": [
+        {
+          "name": "Sortavalan Palloseura",
+          "since": 1929,
+          "id": "019e987b-a1ae-705e-8628-c8461f0471c8"
+        },
+        {
+          "name": "KalPa",
+          "fullName": "Kalevan Pallo",
+          "since": 1946,
+          "id": "019e987b-a1ae-705e-8628-cf2cb8c686e5"
+        }
+      ]
+    },
+    {
+      "id": "6d46f744-fe95-47ef-bf59-c05bf0424b7f",
+      "alias": "Ketterä",
+      "names": [
+        {
+          "name": "Ketterä",
+          "since": 1957,
+          "id": "019e987b-a1ae-705e-8628-d2f52f328705"
+        }
+      ]
+    },
+    {
+      "id": "eed113e7-8bb0-40e4-9efe-6c8e18478106",
+      "alias": "TuTo",
+      "names": [
+        {
+          "name": "TuTo",
+          "fullName": "Turun Toverit",
+          "since": 1929,
+          "id": "019e987b-a1ae-705e-8628-d53fc8e88917"
+        }
+      ]
+    },
+    {
+      "id": "bd33b065-f498-4e7a-ac2d-58e87a8e527c",
+      "alias": "Peliitat",
+      "names": [
+        {
+          "name": "Heinolan Kiekko",
+          "since": 1984,
+          "id": "019e987b-a1ae-705e-8628-d854d5a06c1c"
+        },
+        {
+          "name": "Peliitat",
+          "since": 2012,
+          "id": "019e987b-a1ae-705e-8628-dc36722844fb"
+        }
+      ]
+    },
+    {
+      "id": "d1807679-080b-4cb1-b029-f895cf6bb767",
+      "alias": "Karhu-Kissat",
+      "names": [
+        {
+          "name": "Helsingin Karhu-Kissat",
+          "since": 1938,
+          "id": "019e987b-a1ae-705e-8628-e2cdda589df4"
+        }
+      ]
+    },
+    {
+      "id": "0853dad3-90ff-4b6f-b5ca-ed0326cf0b4d",
+      "alias": "TJV",
+      "names": [
+        {
+          "name": "TJV",
+          "fullName": "Tikkurilan Jää-Veikot",
+          "since": 1958,
+          "id": "019e987b-a1ae-705e-8628-e44312c9c948"
+        }
+      ]
+    },
+    {
+      "id": "e025cec7-9d00-4166-9d95-c47897c968df",
+      "alias": "Vantaan Kiekko",
+      "names": [
+        {
+          "name": "Vantaan Kiekko",
+          "since": 1974,
+          "id": "019e987b-a1ae-705e-8628-eb5df1398201"
+        }
+      ]
+    },
+    {
+      "id": "4b856aa7-4f89-4901-96e0-088c5335d959",
+      "alias": "Hokki-Salo",
+      "names": [
+        {
+          "name": "Hokki-Salo",
+          "since": 1989,
+          "note": "Year of this name is uncertain",
+          "id": "019e987b-a1ae-705e-8628-ef76bf123b83"
+        }
+      ]
+    },
+    {
+      "id": "bab7d2e2-5a1d-4ecb-8173-076df13129d5",
+      "alias": "Vantaa HT",
+      "names": [
+        {
+          "name": "Vantaa HT",
+          "fullName": "Vantaa Hockey Team",
+          "since": 1989,
+          "id": "019e987b-a1ae-705e-8628-f26a057b2b72"
+        }
+      ]
+    },
+    {
+      "id": "a45ca9ea-cf7a-4601-bc39-a76da1b0328a",
+      "alias": "GrIFK",
+      "names": [
+        {
+          "name": "Grankulla IFK",
+          "fullName": "Idrottsföreningen Kamraterna Grankulla",
+          "since": 1925,
+          "id": "019e987b-a1ae-705e-8628-f771ade6decb"
+        }
+      ]
+    },
+    {
+      "id": "10fbf929-863b-4f42-8433-4ba921913c6f",
+      "alias": "Centers",
+      "names": [
+        {
+          "name": "Centers",
+          "fullName": "Pietarsaaren Centers",
+          "since": 1961,
+          "id": "019e987b-a1ae-705e-8628-f8510f7e7075"
+        }
+      ]
+    },
+    {
+      "id": "ad104aa1-fa35-4df2-9bf8-f18059367158",
+      "alias": "Junkkarit",
+      "names": [
+        {
+          "name": "JHT Kalajoki",
+          "fullName": "Junkkarit Hockey Team Kalajoki",
+          "since": 1992,
+          "id": "019e987b-a1ae-705e-8628-ff768d8467b3"
+        }
+      ]
+    },
+    {
+      "id": "425e2ac5-a73f-4f8b-b8b8-b7739f382e1a",
+      "alias": "Hermes",
+      "names": [
+        {
+          "name": "Hermes",
+          "since": 1953,
+          "id": "019e987b-a1ae-705e-8629-02a17e228710"
+        }
+      ]
+    },
+    {
+      "id": "a23060c6-3003-41c8-acb1-f133e66037c6",
+      "alias": "Haukat",
+      "names": [
+        {
+          "name": "Haukat",
+          "since": 1979,
+          "id": "019e987b-a1ae-705e-8629-07629cbf4d5b"
+        }
+      ]
+    },
+    {
+      "id": "a5732603-f348-4470-944c-a96779ba6352",
+      "alias": "Titaanit",
+      "names": [
+        {
+          "name": "Sunilan Sisu",
+          "since": 1937,
+          "id": "019e987b-a1ae-705e-8629-081dfab654d7"
+        },
+        {
+          "name": "Titaanit",
+          "since": 1974,
+          "id": "019e987b-a1ae-705e-8629-0c23bd07b6d9"
+        }
+      ]
+    },
+    {
+      "id": "470bff7d-8fb7-4cfb-be0b-aa80b8c285ca",
+      "alias": "D-Kiekko",
+      "names": [
+        {
+          "name": "Lohi-Kiekko",
+          "since": 1990,
+          "id": "019e987b-a1ae-705e-8629-10afabe5ea26"
+        },
+        {
+          "name": "Diskos",
+          "since": 1993,
+          "id": "019e987b-a1ae-705e-8629-1608f920a3a1"
+        },
+        {
+          "name": "D-Kiekko",
+          "since": 2004,
+          "id": "019e987b-a1ae-705e-8629-188faf488f70"
+        },
+        {
+          "name": "Diskos",
+          "since": 2010,
+          "id": "019e987b-a1ae-705e-8629-1ddb3aede615"
+        },
+        {
+          "name": "D-Kiekko",
+          "since": 2015,
+          "id": "019e987b-a1ae-705e-8629-2215a9227aa3"
+        }
+      ]
+    },
+    {
+      "id": "e153eadb-5ce3-4652-9d80-5f5cae9b3e69",
+      "alias": "Ahmat",
+      "names": [
+        {
+          "name": "Ahmat",
+          "since": 1973,
+          "id": "019e987b-a1ae-705e-8629-267e9f94a40a"
+        },
+        {
+          "name": "Jää-Ahmat",
+          "fullName": "Hyvinkään Jää-Ahmat",
+          "since": 2022,
+          "id": "019e987b-a1ae-705e-8629-2b9adee1bfd2"
+        }
+      ]
+    },
+    {
+      "id": "bdb81e49-de47-426d-8538-771f7e1190d6",
+      "alias": "Jää-Kotkat",
+      "names": [
+        {
+          "name": "Jää-Kotkat",
+          "since": 1995,
+          "id": "019e987b-a1ae-705e-8629-2de6900719db"
+        }
+      ]
+    },
+    {
+      "id": "06e65898-b0a8-4b5b-8042-908f467bfeed",
+      "alias": "Kiekko-Vantaa",
+      "names": [
+        {
+          "name": "Kiekko-Vantaa",
+          "since": 1994,
+          "id": "019e987b-a1ae-705e-8629-31b9de61d564"
+        }
+      ]
+    },
+    {
+      "id": "04c28eec-a342-4162-9612-adacd1be3eab",
+      "alias": "Hokki",
+      "names": [
+        {
+          "name": "Hokki",
+          "fullName": "Kajaanin Hokki",
+          "since": 1968,
+          "id": "019e987b-a1ae-705e-8629-3578554595c8"
+        }
+      ]
+    },
+    {
+      "id": "a78c19cc-507d-4c02-85a6-6cd024a0b7a2",
+      "alias": "Salamat",
+      "names": [
+        {
+          "name": "HC Salamat",
+          "since": 2002,
+          "id": "019e987b-a1ae-705e-8629-39a4a5c0ee89"
+        },
+        {
+          "name": "HC Kirkkonummen Salamat",
+          "since": 2011,
+          "id": "019e987b-a1ae-705e-8629-3dc78f1f3a3e"
+        }
+      ]
+    },
+    {
+      "id": "10bab301-3106-4abb-beb4-e29ff54e0c98",
+      "alias": "LeKi",
+      "names": [
+        {
+          "name": "LeKi",
+          "fullName": "Lempäälän Kisa",
+          "since": 1904,
+          "id": "019e987b-a1ae-705e-8629-433f0706fe7e"
+        }
+      ]
+    },
+    {
+      "id": "1567b670-c3eb-4546-8d2a-e45478afa1ec",
+      "alias": "D Team",
+      "names": [
+        {
+          "name": "D Team",
+          "since": 2008,
+          "id": "019e987b-a1ae-705e-8629-47fcf4a67dfa"
+        },
+        {
+          "name": "JYP-Akatemia",
+          "since": 2011,
+          "id": "019e987b-a1ae-705e-8629-49c9422d4c46"
+        }
+      ]
+    },
+    {
+      "id": "2f7a16bc-5ff5-41ae-837f-6b8973f892d7",
+      "alias": "RoKi",
+      "names": [
+        {
+          "name": "RoKi",
+          "fullName": "Rovaniemen Kiekko",
+          "since": 1979,
+          "id": "019e987b-a1ae-705e-8629-4cf86d24070d"
+        }
+      ]
+    },
+    {
+      "id": "7b1f169e-f142-42a2-ba77-29946aa33f81",
+      "alias": "Laser HT",
+      "names": [
+        {
+          "name": "Laser HT",
+          "since": 1997,
+          "id": "019e987b-a1ae-705e-8629-52a0bc5c6ccd"
+        },
+        {
+          "name": "Kiekko-Laser",
+          "since": 2005,
+          "id": "019e987b-a1ae-705e-8629-56b8f54c0803"
+        },
+        {
+          "name": "Laser HT",
+          "since": 2016,
+          "id": "019e987b-a1ae-705e-8629-59415ab40ef7"
+        },
+        {
+          "name": "AIK/Laser HT",
+          "since": 2017,
+          "id": "019e987b-a1ae-705e-8629-5fe184178eb3"
+        },
+        {
+          "name": "Laser HT",
+          "since": 2018,
+          "id": "019e987b-a1ae-705e-8629-61469cbbda11"
+        }
+      ]
+    },
+    {
+      "id": "afee115c-d28b-4c0e-9c82-18f7b6990b73",
+      "alias": "HC Keski-Uusimaa",
+      "names": [
+        {
+          "name": "Shakers",
+          "since": 1979,
+          "id": "019e987b-a1ae-705e-8629-67e2a9fbbfa2"
+        },
+        {
+          "name": "Helsinki Lightning",
+          "since": 1995,
+          "id": "019e987b-a1ae-705e-8629-6bc2a7e90e44"
+        },
+        {
+          "name": "Sherwood Playboys",
+          "since": 1996,
+          "id": "019e987b-a1ae-705e-8629-6d49853f3a0e"
+        },
+        {
+          "name": "HC Kerava",
+          "since": 2004,
+          "id": "019e987b-a1ae-705e-8629-7307f2ef5cbd"
+        },
+        {
+          "name": "HC Keski-Uusimaa",
+          "since": 2008,
+          "id": "019e987b-a1ae-705e-8629-7521e6ec5857"
+        }
+      ]
+    },
+    {
+      "id": "305da8f8-9e78-42f1-ae52-f47a25895f3b",
+      "alias": "KeuPa",
+      "names": [
+        {
+          "name": "Keuruun Pallo",
+          "since": 1950,
+          "id": "019e987b-a1ae-705e-8629-79544a8ec21a"
+        },
+        {
+          "name": "KeuPa",
+          "fullName": "Keuruun Pallo",
+          "since": 1995,
+          "id": "019e987b-a1ae-705e-8629-7c2aadee453e"
+        }
+      ]
+    },
+    {
+      "id": "1dc6a275-a9c7-483f-974d-29d5f5fd6fdc",
+      "alias": "IPK",
+      "names": [
+        {
+          "name": "IPK",
+          "fullName": "Iisalmen Peli-Karhut",
+          "since": 1966,
+          "id": "019e987b-a1ae-705e-8629-82807d9bb9f7"
+        }
+      ]
+    },
+    {
+      "id": "e12f2445-a6cf-4d18-a110-c70f97c16eac",
+      "alias": "HK Zemgale",
+      "names": [
+        {
+          "name": "HK Zemgale",
+          "fullName": "HK Zemgale/LLU",
+          "since": 2002,
+          "id": "019e987b-a1ae-705e-8629-85aae1da9b7d"
+        }
+      ]
+    },
+    {
+      "id": "a42eb058-6a10-42b9-9b0a-5dd0239354cd",
+      "alias": "Pyry",
+      "names": [
+        {
+          "name": "Pyry",
+          "fullName": "Nokian Pyry",
+          "since": 1905,
+          "id": "019e987b-a1ae-705e-8629-8afea9761047"
+        }
+      ]
+    },
+    {
+      "id": "b9ac4ede-e328-475f-b485-8ad04deea8d7",
+      "alias": "StU",
+      "names": [
+        {
+          "name": "StU",
+          "fullName": "Savitaipaleen Urheilijat",
+          "since": 1915,
+          "id": "019e987b-a1ae-705e-8629-8ddb5a468eb8"
+        }
+      ]
+    },
+    {
+      "id": "57a7ffe1-52fb-49d2-b8ee-181b5b45bfa0",
+      "alias": "VarTP",
+      "names": [
+        {
+          "name": "VarTP",
+          "fullName": "Varkauden Työväen Palloilijat",
+          "since": 1939,
+          "id": "019e987b-a1ae-705e-8629-912a74763559"
+        }
+      ]
+    },
+    {
+      "id": "11f80dc7-d616-4317-afd0-355a465a8716",
+      "alias": "Hurtat",
+      "names": [
+        {
+          "name": "Hurtat",
+          "fullName": "Lieksan Hurtat",
+          "since": 1948,
+          "id": "019e987b-a1ae-705e-8629-95f722799507"
+        }
+      ]
+    },
+    {
+      "id": "81e1754c-1ecf-4dad-a2c7-a249bd5e43f7",
+      "alias": "RaVe",
+      "names": [
+        {
+          "name": "Raahen Vesa",
+          "since": 1921,
+          "id": "019e987b-a1ae-705e-8629-9b382ce2b480"
+        }
+      ]
+    },
+    {
+      "id": "079ef212-338f-4092-b9e6-813362d86d74",
+      "alias": "PaTe",
+      "names": [
+        {
+          "name": "Pattijoen Tempaus",
+          "since": 1946,
+          "id": "019e987b-a1ae-705e-8629-9ee0a35bc2cb"
+        }
+      ]
+    },
+    {
+      "id": "6d7160d8-03da-4efd-8917-fa3d24251ca9",
+      "alias": "Polar-Kiekko",
+      "names": [
+        {
+          "name": "Polar-Kiekko",
+          "fullName": "Oulun Polar-Kiekko",
+          "since": 1974,
+          "id": "019e987b-a1ae-705e-8629-a20acf1cd547"
+        }
+      ]
+    },
+    {
+      "id": "09d8dafc-fb07-4aed-ae06-76254bc2fef6",
+      "alias": "KaJu",
+      "names": [
+        {
+          "name": "KaJu",
+          "fullName": "Kalajoen Junkkarit",
+          "since": 1930,
+          "id": "019e987b-a1ae-705e-8629-a5b8b673c227"
+        }
+      ]
+    },
+    {
+      "id": "d17130c9-5612-487e-a35c-26119d92f316",
+      "alias": "PaU",
+      "names": [
+        {
+          "name": "PaU",
+          "fullName": "Pateniemen Urheiljat",
+          "id": "019e987b-a1ae-705e-8629-aa29e6077e98"
+        }
+      ]
+    },
+    {
+      "id": "bd7a2d94-12a2-4102-927e-2bfbc478ef2a",
+      "alias": "KaVo Jokela",
+      "names": [
+        {
+          "name": "KaVo",
+          "fullName": "Jokelan Kaukasten Voima",
+          "since": 1933,
+          "id": "019e987b-a1ae-705e-8629-aee7b9d4cc59"
+        }
+      ]
+    },
+    {
+      "id": "d3fdc87d-0005-40cd-907a-124806f6fca9",
+      "alias": "Hilpara",
+      "names": [
+        {
+          "name": "Tappara II",
+          "since": 1959,
+          "id": "019e987b-a1ae-705e-8629-b143c3fb83fb"
+        },
+        {
+          "name": "Hilpara",
+          "since": 1967,
+          "id": "019e987b-a1ae-705e-8629-b79d6eeb75d0"
+        }
+      ]
+    },
+    {
+      "id": "64e60eab-a762-43d9-b0af-2f363e528b6c",
+      "alias": "SalPa",
+      "names": [
+        {
+          "name": "SalPa",
+          "fullName": "Salon Palloilijat",
+          "since": 1956,
+          "id": "019e987b-a1ae-705e-8629-bae27c8da4df"
+        }
+      ]
+    },
+    {
+      "id": "cf8abe63-665c-4dc5-aa8c-a079026e8aca",
+      "alias": "Tiikerit",
+      "names": [
+        {
+          "name": "Tiikerit",
+          "fullName": "Hämeenlinnan Tiikerit",
+          "since": 1952,
+          "id": "019e987b-a1ae-705e-8629-bda6e04e54c6"
+        }
+      ]
+    },
+    {
+      "id": "70a23438-6664-4d43-b5be-6aed252def6d",
+      "alias": "Alku",
+      "names": [
+        {
+          "name": "Alku",
+          "fullName": "Forssan Alku",
+          "since": 1913,
+          "id": "019e987b-a1ae-705e-8629-c366999e525a"
+        }
+      ]
+    },
+    {
+      "id": "094cfe08-85e9-49b1-b15a-de7809226a71",
+      "alias": "KiSa",
+      "names": [
+        {
+          "name": "Porin Kiekko-Salamat",
+          "since": 1973,
+          "id": "019e987b-a1ae-705e-8629-c55865cbe08a"
+        }
+      ]
+    },
+    {
+      "id": "2ad26e28-053b-448e-87b7-15d31e4f082d",
+      "alias": "KaTe",
+      "names": [
+        {
+          "name": "Karihaaran Tenho",
+          "since": 1910,
+          "id": "019e987b-a1ae-705e-8629-cae97c36d0be"
+        }
+      ]
+    },
+    {
+      "id": "9a5591a0-d85b-449d-afdb-3ce82657d926",
+      "alias": "PaKa",
+      "names": [
+        {
+          "name": "Kuusamon Pallo-Karhut",
+          "since": 1966,
+          "id": "019e987b-a1ae-705e-8629-ccae49b768ae"
+        }
+      ]
+    },
+    {
+      "id": "bc65794f-413e-4208-ba73-1d00471bf66d",
+      "alias": "Et-Po",
+      "names": [
+        {
+          "name": "Etelä-Portimo",
+          "fullName": "Ylitornion Etelä-Portimo -72",
+          "since": 1972,
+          "id": "019e987b-a1ae-705e-8629-d0f1c4ecbfc3"
+        }
+      ]
+    },
+    {
+      "id": "60128d0c-8ec0-4ecb-aad9-9b4b4edde592",
+      "alias": "RoRe",
+      "names": [
+        {
+          "name": "Rovaniemen Reipas",
+          "since": 1907,
+          "id": "019e987b-a1ae-705e-8629-d6245f3a8b6c"
+        }
+      ]
+    },
+    {
+      "id": "00257ab8-3c67-4939-b605-9b46dc3a5dcb",
+      "alias": "KU",
+      "names": [
+        {
+          "name": "Kemijärven Urheiljat",
+          "since": 1924,
+          "id": "019e987b-a1ae-705e-8629-d91f4eb654a4"
+        }
+      ]
+    },
+    {
+      "id": "34bda9c3-3893-4669-bbaa-a2de499e0c17",
+      "alias": "HaU",
+      "names": [
+        {
+          "name": "Haapaveden Urheilijat",
+          "since": 1938,
+          "id": "019e987b-a1ae-705e-8629-dca815f1a420"
+        }
+      ]
+    },
+    {
+      "id": "65da31bc-7a01-4b33-93c0-b0aab3d29d38",
+      "alias": "PyPo",
+      "names": [
+        {
+          "name": "Pyhäjärven Pohti",
+          "since": 1934,
+          "id": "019e987b-a1ae-705e-8629-e0bbcc462507"
+        }
+      ]
+    },
+    {
+      "id": "6e00ccfe-05be-4fa2-8ddf-910e315b4be3",
+      "alias": "YPallo",
+      "names": [
+        {
+          "name": "Ylivieskan Pallo",
+          "id": "019e987b-a1ae-705e-8629-e7d4b1495640"
+        }
+      ]
+    },
+    {
+      "id": "33f86597-f82e-494d-b3ba-cf97e4b781a5",
+      "alias": "SaKi",
+      "names": [
+        {
+          "name": "Saloisten Kiekko",
+          "id": "019e987b-a1ae-705e-8629-e99fc28a084c"
+        }
+      ]
+    },
+    {
+      "id": "e3187ae6-cb6a-4250-ba37-3b911e899762",
+      "alias": "NU",
+      "names": [
+        {
+          "name": "Nivalan Urheiljat",
+          "since": 1925,
+          "id": "019e987b-a1ae-705e-8629-ee066ab8eb45"
+        }
+      ]
+    },
+    {
+      "id": "c4678d46-d94b-4e45-ada2-533582705ff0",
+      "alias": "Kimmot",
+      "names": [
+        {
+          "name": "Kinnulan Kimmot",
+          "id": "019e987b-a1ae-705e-8629-f0db0ab8de9c"
+        }
+      ]
+    },
+    {
+      "id": "fe44f1b7-3625-4c0c-901b-d619510c6afe",
+      "alias": "Kiilat",
+      "names": [
+        {
+          "name": "Haapajärven Kiilat",
+          "since": 1944,
+          "id": "019e987b-a1ae-705e-8629-f7d506332c15"
+        }
+      ]
+    },
+    {
+      "id": "804e82ce-93c2-4644-9a03-bde1fb02ccfc",
+      "alias": "SNSU",
+      "names": [
+        {
+          "name": "Sääksjärven NSU",
+          "fullName": "Sääksjärven Nuorisoseuran Urheiljat",
+          "id": "019e987b-a1ae-705e-8629-f955e2fa76b3"
+        }
+      ]
+    },
+    {
+      "id": "eea4408b-7650-40d7-bcf0-99c73e43a7bf",
+      "alias": "No Stars",
+      "names": [
+        {
+          "name": "No Stars Kokkola",
+          "id": "019e987b-a1ae-705e-8629-fd9bb6d50ce2"
+        }
+      ]
+    },
+    {
+      "id": "636f28ae-6d87-4e8a-8848-9b99424fe855",
+      "alias": "Vehu",
+      "names": [
+        {
+          "name": "Vehu Soini",
+          "id": "019e987b-a1ae-705e-862a-002e88048a47"
+        }
+      ]
+    },
+    {
+      "id": "f231f6db-70ca-42e0-ba04-1eb367a5cfd1",
+      "alias": "ViVe",
+      "names": [
+        {
+          "name": "ViVe",
+          "fullName": "Vimpelin Veto",
+          "since": 1934,
+          "id": "019e987b-a1ae-705e-862a-05ea12646646"
+        }
+      ]
+    },
+    {
+      "id": "019e987b-a1ae-705e-862a-0f68b7e16093",
+      "alias": "Athlos",
+      "names": [
+        {
+          "name": "Athlos Pietarsaari",
+          "id": "019e987b-a1ae-705e-862a-0800ac87f98b"
+        }
+      ]
+    },
+    {
+      "id": "01e0574e-49fe-407b-85d7-4cac4b3841c5",
+      "alias": "KäTa",
+      "names": [
+        {
+          "name": "Kälviän Tarmo",
+          "id": "019e987b-a1ae-705e-862a-110e7c0da765"
+        }
+      ]
+    },
+    {
+      "id": "a7852b17-9f9c-4281-b856-2f5705caddb6",
+      "alias": "KuKi",
+      "names": [
+        {
+          "name": "Kuhmon Kiva",
+          "since": 1934,
+          "id": "019e987b-a1ae-705e-862a-1660fddde33c"
+        }
+      ]
+    },
+    {
+      "id": "55fe629b-10e7-44b4-8234-3d3dc6319f9d",
+      "alias": "TeeKoo",
+      "names": [
+        {
+          "name": "Kuopion TeeKoo",
+          "id": "019e987b-a1ae-705e-862a-18c9d468fe8c"
+        }
+      ]
+    },
+    {
+      "id": "feac4674-2a6f-4c56-bb65-04f7ab849a3c",
+      "alias": "OoKoo",
+      "names": [
+        {
+          "name": "Outokummun Kiekko",
+          "id": "019e987b-a1ae-705e-862a-1e8d76cb7f82"
+        }
+      ]
+    },
+    {
+      "id": "8fd8314f-173f-44b6-bf8e-40595156d6b1",
+      "alias": "KKV",
+      "names": [
+        {
+          "name": "Kuopion Kisa-Veikot",
+          "since": 1928,
+          "id": "019e987b-a1ae-705e-862a-21e0ac927c8a"
+        }
+      ]
+    },
+    {
+      "id": "862b09fe-6685-491a-beb6-85bb3656d679",
+      "alias": "JuPS",
+      "names": [
+        {
+          "name": "Juuan Palloseura",
+          "since": 1957,
+          "id": "019e987b-a1ae-705e-862a-2718842654d3"
+        }
+      ]
+    },
+    {
+      "id": "e398fff3-f21d-4d59-b568-d8cff1259e0a",
+      "alias": "KiePo",
+      "names": [
+        {
+          "name": "Mäntän Kiekko-Pojat",
+          "since": 1968,
+          "id": "019e987b-a1ae-705e-862a-2aec11180aac"
+        }
+      ]
+    },
+    {
+      "id": "c368c808-260b-4385-94e0-fc3c77ccf29c",
+      "alias": "JyTo",
+      "names": [
+        {
+          "name": "Jyväskylän Toverit",
+          "since": 1934,
+          "id": "019e987b-a1ae-705e-862a-2dc6872d9dcc"
+        }
+      ]
+    },
+    {
+      "id": "3103edf2-a9ca-47e1-81c4-558a93202c7a",
+      "alias": "JIlves",
+      "names": [
+        {
+          "name": "Jämsänkosken Ilves",
+          "since": 1930,
+          "id": "019e987b-a1ae-705e-862a-308beac26753"
+        }
+      ]
+    },
+    {
+      "id": "34936cae-0135-4703-a6b1-071e9aea7108",
+      "alias": "Pelikaanit",
+      "names": [
+        {
+          "name": "Vaajakosken Pelikaanit",
+          "fullName": "Vaajakosken Pelikaanit HT",
+          "since": 1957,
+          "id": "019e987b-a1ae-705e-862a-3522ca22c3d5"
+        }
+      ]
+    },
+    {
+      "id": "f9996255-f038-4415-b1b1-cc27f308b54b",
+      "alias": "LaiPa",
+      "names": [
+        {
+          "name": "Laitaatsillan Pallo",
+          "fullName": "Laitaatsillan Pallo, Savonlinna",
+          "id": "019e987b-a1ae-705e-862a-3a3a14763d7a"
+        }
+      ]
+    },
+    {
+      "id": "17284bf5-9ebb-4833-85a7-b6bc269bbd0a",
+      "alias": "Pepo",
+      "names": [
+        {
+          "name": "Uus-Lavolan Peli-Pojat",
+          "since": 1958,
+          "id": "019e987b-a1ae-705e-862a-3ce263bd8514"
+        },
+        {
+          "name": "Pepo Lappeenranta",
+          "since": 2009,
+          "id": "019e987b-a1ae-705e-862a-43f1b394265f"
+        }
+      ]
+    },
+    {
+      "id": "20636d3e-7a0e-4011-9a25-45066e6fb9ae",
+      "alias": "SiU",
+      "names": [
+        {
+          "name": "Simpeleen Urheilijat",
+          "since": 1936,
+          "id": "019e987b-a1ae-705e-862a-4787591c3f06"
+        }
+      ]
+    },
+    {
+      "id": "21484c65-9358-4300-b9da-556bb4a70899",
+      "alias": "Jymäkkä",
+      "names": [
+        {
+          "name": "Jymäkkä Imatra",
+          "id": "019e987b-a1ae-705e-862a-480dd7e35180"
+        }
+      ]
+    },
+    {
+      "id": "5fa687db-e129-4121-a99a-d3e6f7d35d39",
+      "alias": "KePo",
+      "names": [
+        {
+          "name": "Keltun Pojat",
+          "since": 1974,
+          "id": "019e987b-a1ae-705e-862a-4d5b4d192e78"
+        }
+      ]
+    },
+    {
+      "id": "39ae97d1-b84e-45af-9e54-15ef7b955d10",
+      "alias": "RiU",
+      "names": [
+        {
+          "name": "Ristiinan Urheilijat",
+          "since": 1925,
+          "id": "019e987b-a1ae-705e-862a-510fa60c19ee"
+        }
+      ]
+    },
+    {
+      "id": "2d4a8f70-0fd8-4587-be5c-51782ea8d93a",
+      "alias": "MaIF",
+      "names": [
+        {
+          "name": "Malax IF",
+          "fullName": "Malax Idrottsförening",
+          "id": "019e987b-a1ae-705e-862a-54be99ad906e"
+        }
+      ]
+    },
+    {
+      "id": "0380a0a8-5ef5-4906-83b0-1527b6a6eef9",
+      "alias": "KuRy",
+      "names": [
+        {
+          "name": "Kurikan Ryhti",
+          "since": 1917,
+          "id": "019e987b-a1ae-705e-862a-591a03608d4a"
+        }
+      ]
+    },
+    {
+      "id": "ffab5b32-b9a2-48b8-b989-8adee3efc077",
+      "alias": "APV",
+      "names": [
+        {
+          "name": "Alavuden Peli-Veikot",
+          "since": 1953,
+          "id": "019e987b-a1ae-705e-862a-5f2c0c8bc3d8"
+        }
+      ]
+    },
+    {
+      "id": "cfc309fb-bb8a-4dce-8c8d-5ae356ee5603",
+      "alias": "Kraft",
+      "names": [
+        {
+          "name": "IF Kraft Närpes",
+          "since": 1930,
+          "id": "019e987b-a1ae-705e-862a-616760e02935"
+        }
+      ]
+    },
+    {
+      "id": "3a9e7aa9-dc39-4e0b-831b-a89c7c96112e",
+      "alias": "Virkiä",
+      "names": [
+        {
+          "name": "Lapuan Virkiä",
+          "since": 1907,
+          "id": "019e987b-a1ae-705e-862a-67738e9da9dc"
+        }
+      ]
+    },
+    {
+      "id": "65c09949-bd8d-4e5a-9359-1da999f43e7f",
+      "alias": "Unitas",
+      "names": [
+        {
+          "name": "Unitas Kristiina",
+          "id": "019e987b-a1ae-705e-862a-6938dfff5760"
+        }
+      ]
+    },
+    {
+      "id": "d4a25602-4203-41bf-acf4-25ba8f6f004b",
+      "alias": "KaVo",
+      "names": [
+        {
+          "name": "Kangasalan Voitto",
+          "since": 1929,
+          "id": "019e987b-a1ae-705e-862a-6e0b73416518"
+        }
+      ]
+    },
+    {
+      "id": "fef94615-3d3e-4d82-8da4-de9648cb0819",
+      "alias": "KoiKu",
+      "names": [
+        {
+          "name": "Koivistonkylän Kunto",
+          "id": "019e987b-a1ae-705e-862a-7085f7e61f76"
+        }
+      ]
+    },
+    {
+      "id": "da4890ca-c7d6-4a1a-a1f7-b46574669dbd",
+      "alias": "IkVi",
+      "names": [
+        {
+          "name": "Ikurin Vire",
+          "since": 1957,
+          "id": "019e987b-a1ae-705e-862a-7618a456f92a"
+        }
+      ]
+    },
+    {
+      "id": "5bd28904-47a4-43bd-bada-9e88271a28a4",
+      "alias": "K-Kisa",
+      "names": [
+        {
+          "name": "Kangasalan Kisa",
+          "since": 1930,
+          "id": "019e987b-a1ae-705e-862a-78efeaffd2d6"
+        }
+      ]
+    },
+    {
+      "id": "7933b79b-9b3f-4974-92d3-2f8a1b1d6f1a",
+      "alias": "VehU",
+      "names": [
+        {
+          "name": "Vehmaisten Urheilijat",
+          "since": 1929,
+          "id": "019e987b-a1ae-705e-862a-7fe2d94891aa"
+        }
+      ]
+    },
+    {
+      "id": "7852c77c-2cf3-4b77-b80d-c251bba215ad",
+      "alias": "Fortuna",
+      "names": [
+        {
+          "name": "Oriveden Fortuna",
+          "since": 1968,
+          "id": "019e987b-a1ae-705e-862a-83d941fa3ec3"
+        }
+      ]
+    },
+    {
+      "id": "309be5e2-6634-4931-8c55-437190cdf498",
+      "alias": "TaWe",
+      "names": [
+        {
+          "name": "TaWe Tampere",
+          "id": "019e987b-a1ae-705e-862a-8498b445ee9a"
+        }
+      ]
+    },
+    {
+      "id": "4a97e530-7603-4155-8b0d-f83376dbd5ac",
+      "alias": "Jääpeikot",
+      "names": [
+        {
+          "name": "Valkeakosken Jääpeikot",
+          "id": "019e987b-a1ae-705e-862a-8a363074103b"
+        }
+      ]
+    },
+    {
+      "id": "757bf9b1-2cd2-4aa8-bdd2-f2f1065476e8",
+      "alias": "TBK",
+      "names": [
+        {
+          "name": "Tammerfors Bollklubb",
+          "id": "019e987b-a1ae-705e-862a-8e4ff4add771"
+        }
+      ]
+    },
+    {
+      "id": "c7686686-78d9-47f6-a2df-1d88fdd1186d",
+      "alias": "Jyry",
+      "names": [
+        {
+          "name": "Kuljun Jyry",
+          "since": 1947,
+          "id": "019e987b-a1ae-705e-862a-9334d5310018"
+        }
+      ]
+    },
+    {
+      "id": "53f81428-09bf-46c7-92de-e4211853a7b9",
+      "alias": "Ihode",
+      "names": [
+        {
+          "name": "Ihoden Kiri",
+          "since": 1950,
+          "id": "019e987b-a1ae-705e-862a-97208a77ab02"
+        }
+      ]
+    },
+    {
+      "id": "14526acc-54c4-473d-877d-d35a3e4946a0",
+      "alias": "TuWe",
+      "names": [
+        {
+          "names": "Turun Weikot",
+          "since": 1912,
+          "id": "019e987b-a1ae-705e-862a-9963fa5ca2cf"
+        }
+      ]
+    },
+    {
+      "id": "043d2de7-dd09-49c1-b682-6f2acaa1f586",
+      "alias": "Pulmuset",
+      "names": [
+        {
+          "name": "Rauman Pulmuset",
+          "id": "019e987b-a1ae-705e-862a-9d80b3929de7"
+        }
+      ]
+    },
+    {
+      "id": "25bca0c2-4648-4906-8a04-e42fa7d6f3d6",
+      "alias": "TuKV",
+      "names": [
+        {
+          "name": "Maarian Kisa-Veikot",
+          "since": 1930,
+          "id": "019e987b-a1ae-705e-862a-a1ffe232dea1"
+        },
+        {
+          "name": "Turun Kisa-Veikot",
+          "since": 1945,
+          "id": "019e987b-a1ae-705e-862a-a5bfed5f5e76"
+        }
+      ]
+    },
+    {
+      "id": "9655a356-8889-4be8-adb5-562100ccb8b0",
+      "alias": "VG62",
+      "names": [
+        {
+          "name": "VG-62 Naantali",
+          "fullName": "Vallis gratiae -62 Naantali",
+          "since": 1962,
+          "id": "019e987b-a1ae-705e-862a-abea4459afef"
+        }
+      ]
+    },
+    {
+      "id": "148fc609-8628-40ed-bc5a-aa1d00ac9928",
+      "alias": "Kiekko-74",
+      "names": [
+        {
+          "name": "Kiekko-74",
+          "fullName": "Rauman Kiekko-74",
+          "since": 1974,
+          "note": "Year of name uncertain, assumed",
+          "id": "019e987b-a1ae-705e-862a-acb8ec0ea164"
+        }
+      ]
+    },
+    {
+      "id": "1fbc3109-06bf-4e2d-9e2a-b1bb82f950eb",
+      "alias": "Roima",
+      "names": [
+        {
+          "name": "Uuudenkaupungin Roima",
+          "since": 1919,
+          "id": "019e987b-a1ae-705e-862a-b22e91598e46"
+        }
+      ]
+    },
+    {
+      "id": "6bdf728b-83f1-4b7d-b619-9dbaf3bcd219",
+      "alias": "Kuparikiekko",
+      "names": [
+        {
+          "name": "Outokummun Urheilukerho",
+          "since": 1945,
+          "id": "019e987b-a1ae-705e-862a-b4fe71f935a9"
+        },
+        {
+          "name": "Harjavallan Kuparikiekko",
+          "since": 1961,
+          "id": "019e987b-a1ae-705e-862a-b80915d0ed9d"
+        }
+      ]
+    },
+    {
+      "id": "37a4f0dc-7432-4bce-b124-bd1b415f1be5",
+      "alias": "KiKi",
+      "names": [
+        {
+          "name": "KiKi Hyvinkää",
+          "id": "019e987b-a1ae-705e-862a-bed85721076f"
+        }
+      ]
+    },
+    {
+      "id": "2f795d0c-195c-4e66-b313-7df009d04036",
+      "alias": "RPL",
+      "names": [
+        {
+          "name": "Riihimäen Pallonlyöjät",
+          "since": 1924,
+          "id": "019e987b-a1ae-705e-862a-c228aadab317"
+        }
+      ]
+    },
+    {
+      "id": "8a459a26-0ee2-4532-8d01-fc1b6b750a6c",
+      "alias": "LoKV",
+      "names": [
+        {
+          "name": "Lohjan Kisa-Veikot",
+          "id": "019e987b-a1ae-705e-862a-c7a059563dc9"
+        }
+      ]
+    },
+    {
+      "id": "da5aadd0-4d77-4b62-be6d-685ac60bfb63",
+      "alias": "JäPS",
+      "names": [
+        {
+          "name": "Järvenpään Palloseura",
+          "since": 1947,
+          "id": "019e987b-a1ae-705e-862a-c9896e89b323"
+        }
+      ]
+    },
+    {
+      "id": "4d6f1228-2ad3-46c8-a9bc-c83efcb00b27",
+      "alias": "TuPS",
+      "names": [
+        {
+          "name": "Tuusulan Palloseura",
+          "since": 1971,
+          "id": "019e987b-a1ae-705e-862a-cd92ad5167c0"
+        }
+      ]
+    },
+    {
+      "id": "16a35b71-2b23-4cf7-a935-b6f6214e682e",
+      "alias": "Karakallio",
+      "names": [
+        {
+          "name": "Karakallion Pallo",
+          "id": "019e987b-a1ae-705e-862a-d0cddb774a89"
+        }
+      ]
+    },
+    {
+      "id": "6aa231d0-d98e-42ff-a7bc-6135e035cd02",
+      "alias": "Matinkylä",
+      "names": [
+        {
+          "name": "Matinkylän Mahti",
+          "since": 1968,
+          "id": "019e987b-a1ae-705e-862a-d4c3348a785d"
+        }
+      ]
+    },
+    {
+      "id": "5c8c453a-43bb-4634-9e6b-04c75237999b",
+      "alias": "PUS",
+      "names": [
+        {
+          "name": "PUS Espoo",
+          "id": "019e987b-a1ae-705e-862a-db5fd2c7cde8"
+        }
+      ]
+    },
+    {
+      "id": "5f84ef7f-05ce-4a40-a8a9-87d07473f661",
+      "alias": "EsU",
+      "names": [
+        {
+          "name": "Espoon Urheilijat",
+          "since": 1968,
+          "id": "019e987b-a1ae-705e-862a-dc26cecc6e28"
+        }
+      ]
+    },
+    {
+      "id": "a7726abf-5bb2-4103-86b5-952ed3ca2429",
+      "alias": "KP50",
+      "names": [
+        {
+          "name": "Kampin Pallo-50",
+          "since": 1950,
+          "note": "Year of name uncertain, assumed",
+          "id": "019e987b-a1ae-705e-862a-e0eb6b7c0b46"
+        }
+      ]
+    },
+    {
+      "id": "4aa27b37-a2ad-41b3-ba7d-f5b8cb09e8fe",
+      "alias": "EVU",
+      "names": [
+        {
+          "name": "Etelä-Vantaan Urheilijat",
+          "since": 1969,
+          "id": "019e987b-a1ae-705e-862a-e6425769effd"
+        }
+      ]
+    },
+    {
+      "id": "2c5c0f85-c87d-438c-ba00-a21185323a1b",
+      "alias": "Pirkat",
+      "names": [
+        {
+          "name": "Hämeenkylän Pirkat",
+          "id": "019e987b-a1ae-705e-862a-eaf2bf7fa0cb"
+        }
+      ]
+    },
+    {
+      "id": "56bf4da5-f70d-403c-bf58-737e705e6362",
+      "alias": "KulPS",
+      "names": [
+        {
+          "name": "Kulosaaren Palloseura",
+          "note": "Long name uncertain",
+          "id": "019e987b-a1ae-705e-862a-ec43337d3d4f"
+        }
+      ]
+    },
+    {
+      "id": "69559e1c-7b5b-4577-aeb9-039f6428a707",
+      "alias": "KoJo",
+      "names": [
+        {
+          "name": "Kontulan Jokerit",
+          "since": 1974,
+          "id": "019e987b-a1ae-705e-862a-f0b3293a791a"
+        }
+      ]
+    },
+    {
+      "id": "30fc704d-b15c-4359-8bf8-b46d6134c190",
+      "alias": "KoPo",
+      "names": [
+        {
+          "name": "Kosken Pojat",
+          "since": 1955,
+          "note": "Year of name uncertain",
+          "id": "019e987b-a1ae-705e-862a-f6482caccbd2"
+        }
+      ]
+    },
+    {
+      "id": "5e4fd42c-022b-4e39-a6ee-c733eeefa835",
+      "alias": "KyIF",
+      "names": [
+        {
+          "name": "Kyrkslätt IF",
+          "fullName": "Kyrsklätt Idrottsförening",
+          "since": 1924,
+          "id": "019e987b-a1ae-705e-862a-fa67d87b7e05"
+        }
+      ]
+    },
+    {
+      "id": "60ad0097-585a-4b48-8917-33af22a14a19",
+      "alias": "BRT",
+      "names": [
+        {
+          "name": "BRT Helsinki",
+          "id": "019e987b-a1ae-705e-862a-fea448694cf3"
+        }
+      ]
+    },
+    {
+      "id": "d3d02cf7-a926-4871-8436-c2af605bf9d3",
+      "alias": "KoRe",
+      "names": [
+        {
+          "name": "Kotkan Reipas",
+          "since": 1938,
+          "id": "019e987b-a1ae-705e-862b-0198a3c089d0"
+        }
+      ]
+    },
+    {
+      "id": "4f3a235a-e6e3-47ba-b0b0-088d1af7975e",
+      "alias": "Kiri",
+      "names": [
+        {
+          "name": "Kotkan Riento",
+          "since": 1935,
+          "id": "019e987b-a1ae-705e-862b-059ef40dd840"
+        },
+        {
+          "name": "Kotkan Kiri",
+          "since": 1947,
+          "id": "019e987b-a1ae-705e-862b-0a42f0684e4a"
+        }
+      ]
+    },
+    {
+      "id": "1bb02dcf-93f0-459a-9311-40e520831a3f",
+      "alias": "Purha",
+      "names": [
+        {
+          "name": "Inkeroisten Purha",
+          "since": 1958,
+          "id": "019e987b-a1ae-705e-862b-0fc308a96650"
+        }
+      ]
+    },
+    {
+      "id": "7778353f-40f8-4273-97c7-08d6dee6943f",
+      "alias": "K-68",
+      "names": [
+        {
+          "name": "Kiekko-68",
+          "fullName": "Myllykosken Kiekko-68",
+          "since": 1968,
+          "note": "Year of name uncertain, assumed",
+          "id": "019e987b-a1ae-705e-862b-13d9c17c55fc"
+        }
+      ]
+    },
+    {
+      "id": "3cfa572f-6876-4ebd-9879-248cf43c06d0",
+      "alias": "LJK",
+      "names": [
+        {
+          "name": "Loviisan Jääkiekkoklubi",
+          "id": "019e987b-a1ae-705e-862b-16ff20c22e0b"
+        }
+      ]
+    },
+    {
+      "id": "8e52eee2-ebd4-4caf-b4c9-619cdfdebbdd",
+      "alias": "Puhti",
+      "names": [
+        {
+          "name": "Kuusankosken Puhti",
+          "since": 1910,
+          "id": "019e987b-a1ae-705e-862b-1b0c2d49e328"
+        },
+        {
+          "name": "HC Kuusankoski",
+          "since": 2005,
+          "id": "019e987b-a1ae-705e-862b-1fbe89aa153d"
+        }
+      ]
+    },
+    {
+      "id": "6b318b0c-86cc-42a8-b751-b13fbf0a8011",
+      "alias": "Pedot",
+      "names": [
+        {
+          "name": "Orimattilan Pedot",
+          "since": 1967,
+          "id": "019e987b-a1ae-705e-862b-2146ea92fb06"
+        }
+      ]
+    },
+    {
+      "id": "ff5ce578-2fa4-4c1b-90bc-9663776399b1",
+      "alias": "ToBK",
+      "names": [
+        {
+          "name": "Tolkis Bollklubb",
+          "since": 1955,
+          "id": "019e987b-a1ae-705e-862b-254f2a0185ce"
+        }
+      ]
+    },
+    {
+      "id": "6ab3fcd3-0b5e-4c7e-b86b-4263062604eb",
+      "alias": "PoW",
+      "names": [
+        {
+          "name": "PoW Porvoo",
+          "id": "019e987b-a1ae-705e-862b-29722fe66183"
+        }
+      ]
+    },
+    {
+      "id": "165bbcf2-425f-4510-ad69-220d074201b8",
+      "alias": "Mustangs",
+      "names": [
+        {
+          "name": "Lahden Mustangs",
+          "id": "019e987b-a1ae-705e-862b-2dbc7b3d8e64"
+        }
+      ]
+    },
+    {
+      "id": "98dc86db-32bf-41e3-9858-c7f3f51f71aa",
+      "alias": "SaNsU",
+      "names": [
+        {
+          "name": "Saksalan Ns. Urheilijat",
+          "id": "019e987b-a1ae-705e-862b-32a372e2c49e"
+        }
+      ]
+    },
+    {
+      "id": "3694d7d6-4a49-461a-8685-95edff289e28",
+      "alias": "Salpis",
+      "names": [
+        {
+          "name": "Salpis Hollola",
+          "since": 1969,
+          "id": "019e987b-a1ae-705e-862b-37dfccadccef"
+        }
+      ]
+    }
+  ],
+  "seasons": [
+    {
+      "year": 1976,
+      "leagues": [
+        {
+          "name": "SM-Liiga",
+          "tier": 1,
+          "teams": [
+            [
+              "TPS"
+            ],
+            [
+              "Tappara"
+            ],
+            [
+              "Ässät"
+            ],
+            [
+              "HIFK"
+            ],
+            [
+              "Lukko"
+            ],
+            [
+              "Jokerit"
+            ],
+            [
+              "Ilves"
+            ],
+            [
+              "KooVee"
+            ],
+            [
+              "FPS"
+            ],
+            [
+              "Sport"
+            ]
+          ]
+        },
+        {
+          "name": "I divisioona",
+          "tier": 2,
+          "teams": [
+            [
+              "Pelicans"
+            ],
+            [
+              "Kärpät"
+            ],
+            [
+              "SaiPa"
+            ],
+            [
+              "HPK"
+            ],
+            [
+              "KooKoo"
+            ],
+            [
+              "Jukurit"
+            ],
+            [
+              "SaPKo"
+            ],
+            [
+              "PiTa"
+            ],
+            [
+              "JYP"
+            ],
+            [
+              "JoKP"
+            ]
+          ]
+        },
+        {
+          "name": "II divisioona itä",
+          "tier": 3,
+          "teams": [
+            [
+              "StU"
+            ],
+            [
+              "Warkis"
+            ],
+            [
+              "VarTP"
+            ],
+            [
+              "KalPa"
+            ],
+            [
+              "Hurtat"
+            ],
+            [
+              "Ketterä"
+            ]
+          ]
+        },
+        {
+          "name": "II divisioona pohjoinen",
+          "tier": 3,
+          "teams": [
+            [
+              "Hermes"
+            ],
+            [
+              "RaVe"
+            ],
+            [
+              "PaTe"
+            ],
+            [
+              "Polar-Kiekko"
+            ],
+            [
+              "KaJu"
+            ],
+            [
+              "PaU"
+            ]
+          ]
+        },
+        {
+          "name": "II divisioona etelä",
+          "tier": 3,
+          "teams": [
+            [
+              "K-Espoo"
+            ],
+            [
+              "Peliitat"
+            ],
+            [
+              "TJV"
+            ],
+            [
+              "Titaanit"
+            ],
+            [
+              "KaVo Jokela"
+            ],
+            [
+              "GrIFK"
+            ]
+          ]
+        },
+        {
+          "name": "II divisioona länsi",
+          "tier": 3,
+          "teams": [
+            [
+              "Hilpara"
+            ],
+            [
+              "Kiekko-67"
+            ],
+            [
+              "SalPa"
+            ],
+            [
+              "Tiikerit"
+            ],
+            [
+              "Alku"
+            ],
+            [
+              "KiSa"
+            ]
+          ]
+        },
+        {
+          "name": "III divisioona 1. lohko",
+          "tier": 4,
+          "teams": [
+            [
+              "KaTe"
+            ],
+            [
+              "PaKa"
+            ],
+            [
+              "Et-Po"
+            ],
+            [
+              "RoRe"
+            ],
+            [
+              "KU"
+            ]
+          ]
+        },
+        {
+          "name": "III divisioona 2. lohko",
+          "tier": 4,
+          "teams": [
+            [
+              "HaU"
+            ],
+            [
+              "PyPo"
+            ],
+            [
+              "YPallo"
+            ],
+            [
+              "SaKi"
+            ],
+            [
+              "NU"
+            ],
+            [
+              "Kimmot"
+            ],
+            [
+              "Kiilat"
+            ]
+          ]
+        },
+        {
+          "name": "III divisioona 3. lohko",
+          "tier": 4,
+          "teams": [
+            [
+              "SNSU"
+            ],
+            [
+              "No Stars"
+            ],
+            [
+              "Vehu"
+            ],
+            [
+              "Centers"
+            ],
+            [
+              "ViVe"
+            ],
+            [
+              "Athlos"
+            ],
+            [
+              "KäTa"
+            ]
+          ]
+        },
+        {
+          "name": "III divisioona 4. lohko",
+          "tier": 4,
+          "teams": [
+            [
+              "KuKi"
+            ],
+            [
+              "TeeKoo"
+            ],
+            [
+              "OoKoo"
+            ],
+            [
+              "KKV"
+            ],
+            [
+              "JuPS"
+            ],
+            [
+              "Hokki"
+            ]
+          ]
+        },
+        {
+          "name": "III divisioona 5. lohko",
+          "tier": 4,
+          "teams": [
+            [
+              "KiePo"
+            ],
+            [
+              "JyTo"
+            ],
+            [
+              "JIlves"
+            ],
+            [
+              "KeuPa"
+            ],
+            [
+              "Pelikaanit"
+            ]
+          ]
+        },
+        {
+          "name": "III divisioona 6. lohko",
+          "tier": 4,
+          "teams": [
+            [
+              "LaiPa"
+            ],
+            [
+              "Pepo"
+            ],
+            [
+              "SiU"
+            ],
+            [
+              "Jymäkkä"
+            ],
+            [
+              "KePo"
+            ],
+            [
+              "RiU"
+            ]
+          ]
+        },
+        {
+          "name": "III divisioona 7. lohko",
+          "tier": 4,
+          "teams": [
+            [
+              "MaIF"
+            ],
+            [
+              "KuRy"
+            ],
+            [
+              "APV"
+            ],
+            [
+              "Kraft"
+            ],
+            [
+              "Virkiä"
+            ],
+            [
+              "Unitas"
+            ]
+          ]
+        },
+        {
+          "name": "III divisioona 8. lohko A",
+          "tier": 4,
+          "teams": [
+            [
+              "KaVo"
+            ],
+            [
+              "KoiKu"
+            ],
+            [
+              "IkVi"
+            ],
+            [
+              "K-Kisa"
+            ],
+            [
+              "VehU"
+            ],
+            [
+              "Fortuna"
+            ]
+          ]
+        },
+        {
+          "name": "III divisioona 8. lohko B",
+          "tier": 4,
+          "teams": [
+            [
+              "TaWe"
+            ],
+            [
+              "LeKi"
+            ],
+            [
+              "Jääpeikot"
+            ],
+            [
+              "TBK"
+            ],
+            [
+              "Jyry"
+            ]
+          ]
+        },
+        {
+          "name": "III divisioona 9. lohko",
+          "tier": 4,
+          "teams": [
+            [
+              "Ihode"
+            ],
+            [
+              "TuWe"
+            ],
+            [
+              "Pulmuset"
+            ],
+            [
+              "TuKV"
+            ],
+            [
+              "VG62"
+            ],
+            [
+              "Kiekko-74"
+            ],
+            [
+              "Roima"
+            ],
+            [
+              "Kuparikiekko"
+            ]
+          ]
+        },
+        {
+          "name": "III divisioona 10. lohko",
+          "tier": 4,
+          "teams": [
+            [
+              "KiKi"
+            ],
+            [
+              "RPL"
+            ],
+            [
+              "LoKV"
+            ],
+            [
+              "JäPS"
+            ],
+            [
+              "TuPS"
+            ]
+          ]
+        },
+        {
+          "name": "III divisioona 11. lohko A",
+          "tier": 4,
+          "teams": [
+            [
+              "Karhu-Kissat"
+            ],
+            [
+              "Karakallio"
+            ],
+            [
+              "Matinkylä"
+            ],
+            [
+              "PUS"
+            ],
+            [
+              "EsU"
+            ],
+            [
+              "KP50"
+            ],
+            [
+              "EVU"
+            ]
+          ]
+        },
+        {
+          "name": "III divisioona 11. lohko B",
+          "tier": 4,
+          "teams": [
+            [
+              "Vantaan Kiekko"
+            ],
+            [
+              "Pirkat"
+            ],
+            [
+              "KulPS"
+            ],
+            [
+              "KoJo"
+            ],
+            [
+              "KoPo"
+            ],
+            [
+              "KyIF"
+            ],
+            [
+              "BRT"
+            ]
+          ]
+        },
+        {
+          "name": "III divisioona 12. lohko A",
+          "tier": 4,
+          "teams": [
+            [
+              "KoRe"
+            ],
+            [
+              "Kiri"
+            ],
+            [
+              "Purha"
+            ],
+            [
+              "K-68"
+            ],
+            [
+              "LJK"
+            ],
+            [
+              "Puhti"
+            ]
+          ]
+        },
+        {
+          "name": "III divisioona 12. lohko B",
+          "tier": 4,
+          "teams": [
+            [
+              "Pedot"
+            ],
+            [
+              "ToBK"
+            ],
+            [
+              "PoW"
+            ],
+            [
+              "Mustangs"
+            ],
+            [
+              "SaNsU"
+            ],
+            [
+              "Salpis"
+            ]
+          ]
+        }
+      ],
+      "id": "019e987b-a1ae-705e-8628-1d0c194956ce"
+    },
+    {
+      "year": 1977,
+      "leagues": [
+        {
+          "name": "SM-Liiga",
+          "tier": 1,
+          "teams": [
+            [
+              "Tappara"
+            ],
+            [
+              "TPS"
+            ],
+            [
+              "KooVee"
+            ],
+            [
+              "HIFK"
+            ],
+            [
+              "Ässät"
+            ],
+            [
+              "Ilves"
+            ],
+            [
+              "Jokerit"
+            ],
+            [
+              "Pelicans"
+            ],
+            [
+              "Lukko"
+            ],
+            [
+              "FPS"
+            ]
+          ]
+        },
+        {
+          "name": "I-divisioona",
+          "tier": 2,
+          "teams": [
+            [
+              "Kärpät"
+            ],
+            [
+              "Sport"
+            ],
+            [
+              "SaiPa"
+            ],
+            [
+              "HPK"
+            ],
+            [
+              "K-Espoo"
+            ],
+            [
+              "JYP"
+            ],
+            [
+              "KooKoo"
+            ],
+            [
+              "SaPKo"
+            ],
+            [
+              "Jukurit"
+            ],
+            [
+              "PiTa"
+            ]
+          ]
+        }
+      ],
+      "id": "019e987b-a1ae-705e-8628-231b91701525"
+    }
+  ]
+}

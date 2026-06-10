@@ -1,0 +1,15 @@
+.app .jsonField {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.app .jsonField textarea {
+  width: 50em;
+  height: 30em;
+}
+
+.app .jsonField textarea.hidden {
+  visibility: hidden;
+  display: none;
+}
