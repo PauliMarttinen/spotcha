@@ -25,8 +25,11 @@ const Legend = (props: LegendProps) => {
   const contentRef = useRef<SVGGElement|null>(null);
   const [contentBox, setContentBox] = useState<DOMRect|null>(null);
 
+  const teamIds = Object.keys(props.data.teams);
+
   const teamItems: LegendItem[] = props.selectedTeamIds.map((id: string) => {
-    const team = props.data.teams.find((team: Team) => team.id === id);
+    //const team = props.data.teams.find((team: Team) => team.id === id);
+    const team = props.data.teams[id];
     if (!team) throw new Error(`No team with id '${id}'`);
 
     return {
@@ -37,11 +40,15 @@ const Legend = (props: LegendProps) => {
   });
 
   const nameItems: LegendItem[] = props.selectedNameIds.map((id: string) => {
-    const team = props.data.teams.find((team: Team) => {
+    /* const team = props.data.teams.find((team: Team) => {
       return team.names.some((name: Name) => name.id === id);
+    }); */
+    const teamId = teamIds.find((findId: string) => {
+      return props.data.teams[findId].names.some((name: Name) => name.id === id);
     });
-    if (!team) throw new Error(`No team with name id '${id}`);
+    if (!teamId) throw new Error(`No team with name id '${id}`);
 
+    const team = props.data.teams[teamId];
     const name = team.names.find((name: Name) => name.id === id);
     if (!name) throw new Error(`Team '${team.alias}' has no name with id '${id}`);
 
