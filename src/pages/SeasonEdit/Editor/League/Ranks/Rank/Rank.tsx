@@ -1,12 +1,29 @@
+import { useMemo } from "react";
+import { type Teams } from "../../../../../../data/types";
+import styles from "./Rank.module.css";
+
 type RankProps = {
   rank: string[],
+  teams: Teams,
   onChange: (newRank: string[]) => void
 };
 
+type AliasToId = Record<string, string>;
+
 const Rank = (props: RankProps) => {
-  const onChangeWithinRank = (index: number, newTeam: string) => {
+  const aliasToId: AliasToId = useMemo(() => {
+    return Object.keys(props.teams).reduce((carry: AliasToId, id: string) => {
+      const alias = props.teams[id].alias;
+      return {
+        ...carry,
+        [alias]: id
+      };
+    }, {});
+  }, []);
+
+  const onChangeWithinRank = (index: number, newAlias: string) => {
     const newRank = [...props.rank];
-    newRank[index] = newTeam;
+    newRank[index] = aliasToId[newAlias] ? aliasToId[newAlias] : newAlias;
     props.onChange(newRank);
   };
 
@@ -25,15 +42,18 @@ const Rank = (props: RankProps) => {
   return (
     <>
       {
-        props.rank.map((team: string, index: number) => {
+        props.rank.map((id: string, index: number) => {
+          const displayValue = props.teams[id] ? props.teams[id].alias : id;
+
           return (
             <input
               key={`withinrank-${index}`}
               type={"text"}
-              value={team}
+              value={displayValue}
               onChange={(e) => onChangeWithinRank(index, e.target.value)}
               placeholder={"Team alias"}
               list={"aliases"}
+              className={displayValue === id ? styles.idNotFound : ""}
             />
           )
         })

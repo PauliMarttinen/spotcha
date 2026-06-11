@@ -1,7 +1,9 @@
+import { type Teams } from "../../../../../data/types";
 import Rank from "./Rank/Rank";
 
 type RanksProps = {
-  ranks: string[][]
+  ranks: string[][],
+  teams: Teams,
   onChange: (newRanks: string[][]) => void
 };
 
@@ -21,6 +23,7 @@ const Ranks = (props: RanksProps) => {
           return (
             <li key={`rank-${index}`}>
               <Rank
+                teams={props.teams}
                 rank={rank}
                 onChange={(newRank: string[]) => onChange(index, newRank)}
               />

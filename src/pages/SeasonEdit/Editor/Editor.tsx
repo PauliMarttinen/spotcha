@@ -1,9 +1,10 @@
-import { type Season, type League as LeagueType } from "../../../data/types"
+import { type Season, type League as LeagueType, type Teams } from "../../../data/types"
 import League from "./League/League";
 import { v7 as uuid } from "uuid";
 
 type EditorProps = {
-  season: Season
+  season: Season,
+  teams: Teams,
   onChange: (newSeason: Season) => void
 };
 
@@ -90,6 +91,7 @@ const Editor = (props: EditorProps) => {
       {
         props.season.leagues.map((league: LeagueType, index: number) => (
           <League
+            teams={props.teams}
             key={`league-${index}`}
             league={league}
             onChange={onChange}

@@ -85,6 +85,7 @@ const SeasonEdit = (props: SeasonEditProps) => {
             {
               openSeason !== null &&
               <Editor
+                teams={props.data.teams}
                 season={props.data.seasons.find((season: Season) => season.id === openSeason)!}
                 onChange={onChange}
               />
@@ -94,10 +95,12 @@ const SeasonEdit = (props: SeasonEditProps) => {
       </div>
       <datalist id={"aliases"}>
         {
-          props.data.teams.map((team: Team, index: number) => {
+          Object.keys(props.data.teams).map((id: string) => {
+            const team = props.data.teams[id];
+
             return (
               <option
-                key={`alias-${team.alias}-${index}`}
+                key={`autocomplete-${id}`}
                 value={team.alias}
               />
             )
