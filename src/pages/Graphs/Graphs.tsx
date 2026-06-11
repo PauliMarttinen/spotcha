@@ -70,17 +70,12 @@ const Graphs = (props: GraphsProps) => {
   };
 
   const getAliasFromId = (id: string) => {
-    //const alias = props.data.teams.find((team: Team) => team.id === id)?.alias;
     const alias = props.data.teams[id].alias;
     if (!alias) throw new Error(`No team has id '${id}`);
     return alias;
   };
 
   const getTeamFromNameId = (nameId: string) => {
-    /* const team = props.data.teams.find((team: Team) => {
-      return team.names.some((name: Name) => name.id === id);
-    }); 
-    if (!team) throw new Error(`No team with name id '${id}'`);*/
     const teamId = teamIds.find((teamId: string) => {
       return props.data.teams[teamId].names.some((name: Name) => name.id === nameId);
     });
@@ -91,8 +86,6 @@ const Graphs = (props: GraphsProps) => {
   };
 
   const getRanksForTeam = (id: string): RankRecord[] => {
-    //const alias = getAliasFromId(id);
-    
     return props.data.seasons.map((season: Season) => {
       if (season.cancelled) return {
         year: season.year,

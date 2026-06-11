@@ -1,8 +1,7 @@
 import { useState, useEffect, useRef } from "react";
-import { type DataFormat, type Team, type Name } from "../../../data/types";
-import { GRAPH_HEIGHT, GRAPH_MARGIN, GRAPH_WIDTH } from "../Graphs";
+import { type DataFormat, type Name } from "../../../data/types";
+import { GRAPH_HEIGHT, GRAPH_MARGIN } from "../Graphs";
 import Box from "../primitives/Box/Box";
-import Text from "../primitives/Text/Text";
 import { type GraphColor } from "../Graph/Graph";
 
 type LegendProps = {
@@ -28,7 +27,6 @@ const Legend = (props: LegendProps) => {
   const teamIds = Object.keys(props.data.teams);
 
   const teamItems: LegendItem[] = props.selectedTeamIds.map((id: string) => {
-    //const team = props.data.teams.find((team: Team) => team.id === id);
     const team = props.data.teams[id];
     if (!team) throw new Error(`No team with id '${id}'`);
 
@@ -40,9 +38,7 @@ const Legend = (props: LegendProps) => {
   });
 
   const nameItems: LegendItem[] = props.selectedNameIds.map((id: string) => {
-    /* const team = props.data.teams.find((team: Team) => {
-      return team.names.some((name: Name) => name.id === id);
-    }); */
+
     const teamId = teamIds.find((findId: string) => {
       return props.data.teams[findId].names.some((name: Name) => name.id === id);
     });

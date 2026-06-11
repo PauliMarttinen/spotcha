@@ -56,41 +56,9 @@ const countDuplicateAliases = (teams: Teams) => {
   }
   return duplicates.length;
 };
-/* 
-const countEmptyAliases = (data: DataFormat) => {
-  const aliasesInSeasons = new Set<string>();
-  data.seasons.forEach((season: Season) => {
-
-    const aliasesInSeason: string[] = [];
-    season.leagues.forEach((league: League) => {
-      league.teams.forEach((rank: string[]) => {
-        rank.forEach((alias: string) => aliasesInSeason.push(alias))
-      });
-    });
-
-    aliasesInSeason.forEach((alias: string) => aliasesInSeasons.add(alias));
-  });
-  
-  const emptyAliases: string[] = [];
-  aliasesInSeasons.forEach((alias: string) => {
-    if (data.teams.findIndex((team: Team) => team.alias === alias) === -1) emptyAliases.push(alias);
-  });
-
-  if (emptyAliases.length !== 0)
-  {
-    console.error("Empty aliases: ", emptyAliases);
-  }
-  if (emptyAliases.length === 0)
-  {
-    console.log("No empty aliases!")
-  }
-  
-  return emptyAliases.length;
-}; */
 
 const isDataFine = (data: DataFormat): boolean => {
   if (countDuplicateAliases(data.teams) > 0) return false;
-  /* if (countEmptyAliases(data) > 0) return false; */
   if (countDuplicateIds(data) > 0) return false;
   if (countUnexplainedCancelledSeasons(data.seasons) > 0) return false;
   console.log("Data entered is fine.")

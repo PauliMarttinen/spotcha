@@ -22,30 +22,6 @@ const TeamEdit = (props: TeamEditProps) => {
 
     if (isDuplicate) return;
 
-    /*const oldAlias = teamIds.find((team: TeamType) => team.id === newTeam.id)!.alias;
-    
-    const newSeasons = (() => {
-      if (oldAlias === newTeam.alias) return [...props.data.seasons];
-
-      return props.data.seasons.map((season: Season): Season => {
-        return {
-          ...season,
-          leagues: season.leagues.map((league: League): League => {
-            return {
-              ...league,
-              teams: league.teams.map((rank: string[]): string[] => (
-                rank.map((alias: string): string => alias === oldAlias ? newTeam.alias : alias)
-              ))
-            };
-          })
-        };
-      });
-    })();*/
-
-    /* const newTeams = props.data.teams.map((oldTeam: TeamType) => {
-      return newTeam.id === oldTeam.id ? newTeam : oldTeam;
-    }); */
-
     const updatedTeams = {
       ...props.data.teams,
       [newTeam.id]: newTeam
@@ -73,7 +49,6 @@ const TeamEdit = (props: TeamEditProps) => {
       ]
     };
 
-    //const newTeams = [newTeam, ...props.data.teams];
     const updatedTeams = {
       ...props.data.teams,
       [newTeam.id]: newTeam
