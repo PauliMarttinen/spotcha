@@ -1,9 +1,10 @@
-import { type League as LeagueType } from "../../../../data/types";
+import { type League as LeagueType, type Teams } from "../../../../data/types";
 import styles from "./League.module.css";
 import Ranks from "./Ranks/Ranks";
 
 type LeagueProps = {
-  league: LeagueType
+  league: LeagueType,
+  teams: Teams,
   onChange: (newLeague: LeagueType) => void
 };
 
@@ -72,6 +73,7 @@ const League = (props: LeagueProps) => {
         className={styles.leagueTier}
       />
       <Ranks
+        teams={props.teams}
         ranks={props.league.teams}
         onChange={onChangeRanks}
       />

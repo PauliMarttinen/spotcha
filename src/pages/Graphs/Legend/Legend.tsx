@@ -1,16 +1,16 @@
 import { useState, useEffect, useRef } from "react";
-import { type DataFormat, type Team, type Name } from "../../../data/types";
-import { GRAPH_HEIGHT, GRAPH_MARGIN, GRAPH_WIDTH } from "../Graphs";
+import { type DataFormat, type Name } from "../../../data/types";
+import { GRAPH_HEIGHT, GRAPH_MARGIN } from "../Graphs";
 import Box from "../primitives/Box/Box";
-import Text from "../primitives/Text/Text";
-import { type GraphColor } from "../Graph/Graph";
+import Item from "./Item/Item";
+import { type GraphColors } from "../Graph/Graph";
 
 type LegendProps = {
   data: DataFormat,
   selectedTeamIds: string[],
   selectedNameIds: string[],
   dashedIds: string[]
-  graphColors: GraphColor
+  graphColors: GraphColors
 };
 
 type LegendItem = {
@@ -19,14 +19,14 @@ type LegendItem = {
   label: string
 };
 
-const ITEM_HEIGHT = 15;
-
 const Legend = (props: LegendProps) => {
   const contentRef = useRef<SVGGElement|null>(null);
   const [contentBox, setContentBox] = useState<DOMRect|null>(null);
 
+  const teamIds = Object.keys(props.data.teams);
+
   const teamItems: LegendItem[] = props.selectedTeamIds.map((id: string) => {
-    const team = props.data.teams.find((team: Team) => team.id === id);
+    const team = props.data.teams[id];
     if (!team) throw new Error(`No team with id '${id}'`);
 
     return {
@@ -37,11 +37,13 @@ const Legend = (props: LegendProps) => {
   });
 
   const nameItems: LegendItem[] = props.selectedNameIds.map((id: string) => {
-    const team = props.data.teams.find((team: Team) => {
-      return team.names.some((name: Name) => name.id === id);
-    });
-    if (!team) throw new Error(`No team with name id '${id}`);
 
+    const teamId = teamIds.find((findId: string) => {
+      return props.data.teams[findId].names.some((name: Name) => name.id === id);
+    });
+    if (!teamId) throw new Error(`No team with name id '${id}`);
+
+    const team = props.data.teams[teamId];
     const name = team.names.find((name: Name) => name.id === id);
     if (!name) throw new Error(`Team '${team.alias}' has no name with id '${id}`);
 
@@ -81,38 +83,14 @@ const Legend = (props: LegendProps) => {
       <g ref={contentRef}>
         {
           items.map((item: LegendItem, index: number) => (
-            <g
-              key={`legenditem-${index}`}
-              transform={`translate(${GRAPH_MARGIN+boxMargin+boxPadding}, ${GRAPH_HEIGHT-GRAPH_MARGIN-(contentBox ? contentBox.height : 0)-boxMargin-boxPadding})`}>
-              <circle
-                cx={0}
-                cy={10+index*ITEM_HEIGHT}
-                r={1}
-                fill={item.color}
-                stroke={item.color}
-              />
-              <path
-                fill={"none"}
-                stroke={item.color}
-                d={`M 0,${10+index*ITEM_HEIGHT} L 20,${10+index*ITEM_HEIGHT}`}
-                strokeDasharray={item.dashed ? "2" : "0"}
-              />
-              <circle
-                cx={20}
-                cy={10+index*ITEM_HEIGHT}
-                r={1}
-                fill={item.color}
-                stroke={item.color}
-              />
-              <text
-                x={30}
-                y={10+index*ITEM_HEIGHT+2.5}
-                fontSize={10}
-                stroke={"none"}
-                fill={item.color}>
-                {item.label}
-                </text>
-            </g>
+            <Item
+              key={`graph-${item.label}`}
+              x={GRAPH_MARGIN+boxMargin+boxPadding}
+              y={GRAPH_HEIGHT-GRAPH_MARGIN-boxMargin-boxPadding-3.5-index*15}
+              color={item.color}
+              dashed={item.dashed}
+              label={item.label}
+            />
           ))
         }
       </g>

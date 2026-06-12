@@ -18,7 +18,7 @@ type HoverContent = {
   rank: number
 };
 
-export type GraphColor = Record<string, string>;
+export type GraphColors = Record<string, string>;
 
 const Graph = (props: GraphProps) => {
   const [hoverContent, setHoverContent] = useState<HoverContent|null>(null);
@@ -36,10 +36,6 @@ const Graph = (props: GraphProps) => {
   const offsetY = rankHeight/2;
   const yearWidth = getWidthOfYear(firstYear, lastYear, firstX, lastX);
   const offsetX = yearWidth/2;
-  
-  //const color = props.displayName === "Finland" ? "blue" : (props.displayName === "Sweden" ? "green" : "red");
-  //const color = "prööt";
-  //const color = props.alias === "South Korea" ? "blue" : "#e00";
 
   return (
     <g>
@@ -61,7 +57,6 @@ const Graph = (props: GraphProps) => {
           const participatedNextYear = !!props.record[index+1] && props.record[index+1].rank >= 1;
 
           const nextX = (participatedNextYear ? resize(firstYear, lastYear, props.record[index+1].year, firstX, lastX) : 0) + offsetX;
-          //const nextX = participatedNextYear ? thisX+yearWidth : 0;
           const nextY = (participatedNextYear ? resize(0, props.teamCount, props.record[index+1].rank, firstY, lastY) : 0) - offsetY;
 
           return (

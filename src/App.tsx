@@ -10,7 +10,7 @@ import { fillInMissingData } from "./utils/fillInMissingData";
 const App = () => {
   const [page, setPage] = useState<number>(0);
   const [data, setData] = useState<DataFormat>({
-    teams: [],
+    teams: {},
     seasons: []
   });
   const [hideJsonField, setHideJsonField] = useState<boolean>(false);

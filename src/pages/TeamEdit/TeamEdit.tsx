@@ -10,39 +10,26 @@ type TeamEditProps = {
 
 const TeamEdit = (props: TeamEditProps) => {
   const [filter, setFilter] = useState<string>("");
+  
+  const teamIds = Object.keys(props.data.teams);
 
   const onChange = (newTeam: TeamType) => {
     //Prevent typing a duplicate alias
-    if (props.data.teams.some((team: TeamType) => team.alias === newTeam.alias && team.id !== newTeam.id))
-      return;
-
-    const oldAlias = props.data.teams.find((team: TeamType) => team.id === newTeam.id)!.alias;
-
-    const newSeasons = (() => {
-      if (oldAlias === newTeam.alias) return [...props.data.seasons];
-
-      return props.data.seasons.map((season: Season): Season => {
-        return {
-          ...season,
-          leagues: season.leagues.map((league: League): League => {
-            return {
-              ...league,
-              teams: league.teams.map((rank: string[]): string[] => (
-                rank.map((alias: string): string => alias === oldAlias ? newTeam.alias : alias)
-              ))
-            };
-          })
-        };
-      });
-    })();
-
-    const newTeams = props.data.teams.map((oldTeam: TeamType) => {
-      return newTeam.id === oldTeam.id ? newTeam : oldTeam;
+    const isDuplicate = teamIds.some((id: string) => {
+      const oldTeam = props.data.teams[id];
+      return oldTeam.alias === newTeam.alias && oldTeam.id !== newTeam.id
     });
 
+    if (isDuplicate) return;
+
+    const updatedTeams = {
+      ...props.data.teams,
+      [newTeam.id]: newTeam
+    };
+
     const newData: DataFormat = {
-      seasons: newSeasons,
-      teams: newTeams
+      ...props.data,
+      teams: updatedTeams
     };
     props.onChange(newData);
   };
@@ -62,11 +49,14 @@ const TeamEdit = (props: TeamEditProps) => {
       ]
     };
 
-    const newTeams = [newTeam, ...props.data.teams];
+    const updatedTeams = {
+      ...props.data.teams,
+      [newTeam.id]: newTeam
+    };
 
     const newData = {
       ...props.data,
-      teams: newTeams
+      teams: updatedTeams
     };
 
     props.onChange(newData);
@@ -85,27 +75,31 @@ const TeamEdit = (props: TeamEditProps) => {
         placeholder={"Filter"}
       />
       {
-        props.data.teams
-          .filter((team: TeamType) => {
-            if (filter.trim() === "") return true;
+        teamIds.filter((id: string) => {
+          const team = props.data.teams[id];
+          if (filter.trim() === "") return true;
 
-            const lowerCaseAlias = team.alias.toLowerCase();
+          const lowerCaseAlias = team.alias.toLowerCase();
 
-            if (lowerCaseAlias.indexOf(filter) >= 0) return true;
+          if (lowerCaseAlias.indexOf(filter) >= 0) return true;
 
-            return team.names.some((name: Name) => {
-              const lowerCaseName = name.name.toLowerCase();
-              const lowerCaseFullName = name.fullName.toLowerCase();
-              return lowerCaseName.indexOf(filter) >= 0 || lowerCaseFullName.indexOf(filter) >= 0;
-            });
-          })
-          .map((team: TeamType, index: number) => (
-          <Team
-            key={index}
-            team={team}
-            onChange={onChange}
-          />
-        ))
+          return team.names.some((name: Name) => {
+            const lowerCaseName = name.name.toLowerCase();
+            const lowerCaseFullName = name.fullName.toLowerCase();
+            return lowerCaseName.indexOf(filter) >= 0 || lowerCaseFullName.indexOf(filter) >= 0;
+          });
+        })
+        .map((id: string) => {
+          const team = props.data.teams[id];
+
+          return (
+            <Team
+              key={id}
+              team={team}
+              onChange={onChange}
+            />
+          )
+        })
       }
     </main>
   );

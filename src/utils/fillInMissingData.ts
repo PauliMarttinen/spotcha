@@ -1,4 +1,4 @@
-import { type DataFormat } from "../data/types";
+import { type DataFormat, type League, type Season, type Team } from "../data/types";
 
 /**
  * This function exist for ephemeral needs; during development I might change the
