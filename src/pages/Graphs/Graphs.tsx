@@ -205,7 +205,7 @@ const Graphs = (props: GraphsProps) => {
                   <ul>
                     {
                       team.names.map((name: Name) => (
-                        <li>
+                        <li key={name.id}>
                           <input
                             type={"checkbox"}
                             checked={selectedNameIds.indexOf(name.id) >= 0}
