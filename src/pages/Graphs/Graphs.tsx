@@ -32,43 +32,6 @@ const Graphs = (props: GraphsProps) => {
 
   const teamIds = Object.keys(props.data.teams);
 
-  /* const onChangeTeamIds = (value: string) => {
-    if (selectedTeamIds.indexOf(value) >= 0)
-    {
-      setSelectedTeamIds(selectedTeamIds.filter((selectedValue: string) => selectedValue !== value));
-      return;
-    }
-
-    setSelectedTeamIds([...selectedTeamIds, value]);
-  };
-
-  const onChangeNameIds = (value: string) => {
-    if (selectedNameIds.indexOf(value) >= 0)
-    {
-      setSelectedNameIds(selectedNameIds.filter((selectedValue: string) => selectedValue !== value));
-      return;
-    }
-
-    setSelectedNameIds([...selectedNameIds, value]);
-  };
-
-  const onChangeDashedIds = (value: string) => {
-    if (dashedIds.indexOf(value) >= 0)
-    {
-      setDashedIds(dashedIds.filter((selectedValue: string) => selectedValue !== value));
-      return;
-    }
-
-    setDashedIds([...dashedIds, value]);
-  };
-
-  const onChangeColor = (id: string, newColor: string) => {
-    setGraphColors({
-      ...graphColors,
-      [id]: newColor
-    });
-  }; */
-
   const getAliasFromId = (id: string) => {
     const alias = props.data.teams[id].alias;
     if (!alias) throw new Error(`No team has id '${id}`);
