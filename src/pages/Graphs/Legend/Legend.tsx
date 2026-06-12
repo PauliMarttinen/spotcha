@@ -29,15 +29,20 @@ const Legend = (props: LegendProps) => {
     const team = props.data.teams[id];
     if (!team) throw new Error(`No team with id '${id}'`);
 
+    const sortedNames = team.names.sort((nameA: Name, nameB: Name) => nameA.since - nameB.since);
+    const latestName = sortedNames[sortedNames.length-1];
+
+    const labelFromName = latestName.fullName.trim() !== "" ? latestName.fullName : latestName.name;
+    const label = labelFromName.trim() !== "" ? labelFromName : team.alias;
+
     return {
       color: props.graphColors[id],
-      label: team.alias,
+      label: label,
       dashed: props.dashedIds.indexOf(id) >= 0
     };
   });
 
   const nameItems: LegendItem[] = props.selectedNameIds.map((id: string) => {
-
     const teamId = teamIds.find((findId: string) => {
       return props.data.teams[findId].names.some((name: Name) => name.id === id);
     });

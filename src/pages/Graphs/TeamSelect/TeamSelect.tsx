@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { type Name, type Teams } from "../../../data/types";
 import { type GraphColors } from "../Graph/Graph";
 import styles from "./TeamSelect.module.css";
@@ -15,6 +16,7 @@ type TeamSelect = {
 };
 
 const TeamSelect = (props: TeamSelect) => {
+	const [highlight, setHighlight] = useState<string>("");
 	const teamIds = Object.keys(props.teams);
 
 	const onChangeTeamIds = (value: string) => {
@@ -61,72 +63,95 @@ const TeamSelect = (props: TeamSelect) => {
   };
 
 	return (
-		<ul>
-			{
-				teamIds.map((id: string) => {
-					const team = props.teams[id];
-					return (
-						<li key={`checkbox-${team.id}`}>
-							<input
-								type={"checkbox"}
-								checked={props.selectedTeamIds.indexOf(team.id) >= 0}
-								id={team.id}
-								onChange={() => onChangeTeamIds(team.id)}
-							/>
-							<label htmlFor={team.id}>{team.alias}</label>
-							<span className={styles.spacer}/>
-							<input
-								type={"checkbox"}
-								checked={props.dashedIds.indexOf(team.id) >= 0}
-								id={`dashed-${team.id}`}
-								onChange={() => onChangeDashedIds(team.id)}
-							/>
-							<label htmlFor={`dashed-${team.id}`}>dashed</label>
-							<span className={styles.spacer}/>
-							<input
-								type={"text"}
-								value={props.graphColors[team.id]}
-								onChange={(e) => onChangeColor(team.id, e.target.value)}
-								placeholder={"Color"}
-							/>
-							{
-								team.names.length > 1 &&
-								<ul>
-									{
-										team.names.map((name: Name) => (
-											<li key={name.id}>
-												<input
-													type={"checkbox"}
-													checked={props.selectedNameIds.indexOf(name.id) >= 0}
-													id={name.id}
-													onChange={() => onChangeNameIds(name.id)}
-												/>
-												<label htmlFor={name.id}>{name.fullName}</label>
-												<span className={styles.spacer}/>
-												<input
-													type={"checkbox"}
-													checked={props.dashedIds.indexOf(name.id) >= 0}
-													id={`dashed-${name.id}`}
-													onChange={() => onChangeDashedIds(name.id)}
-												/>
-												<label htmlFor={`dashed-${name.id}`}>dashed</label>
-												<span className={styles.spacer}/>
-												<input
-													type={"text"}
-													value={props.graphColors[name.id]}
-													onChange={(e) => onChangeColor(name.id, e.target.value)}
-													placeholder={"Color"}
-												/>
-											</li>
-										))
-									}
-								</ul>
-							}
-						</li>
-					)
-				})
-			}
-		</ul>
+		<>
+			<input
+				type={"text"}
+				value={highlight}
+				onChange={(e) => setHighlight(e.target.value.toLowerCase())}
+				placeholder={"Highlight"}
+			/>
+			<ul>
+				{
+					teamIds.map((id: string) => {
+						const team = props.teams[id];
+						const isHighlightEnabled = highlight.trim() !== "";
+						const teamAliasLC = team.alias.toLowerCase();
+						const isTeamHighlighted = isHighlightEnabled && teamAliasLC.indexOf(highlight) >= 0;
+						
+						return (
+							<li
+								key={`checkbox-${team.id}`}
+								className={isTeamHighlighted ? styles.highlight : ""}>
+								<input
+									type={"checkbox"}
+									checked={props.selectedTeamIds.indexOf(team.id) >= 0}
+									id={team.id}
+									onChange={() => onChangeTeamIds(team.id)}
+								/>
+								<label htmlFor={team.id}>{team.alias}</label>
+								<span className={styles.spacer}/>
+								<input
+									type={"checkbox"}
+									checked={props.dashedIds.indexOf(team.id) >= 0}
+									id={`dashed-${team.id}`}
+									onChange={() => onChangeDashedIds(team.id)}
+								/>
+								<label htmlFor={`dashed-${team.id}`}>dashed</label>
+								<span className={styles.spacer}/>
+								<input
+									type={"text"}
+									value={props.graphColors[team.id]}
+									onChange={(e) => onChangeColor(team.id, e.target.value)}
+									placeholder={"Color"}
+								/>
+								{
+									team.names.length > 1 &&
+									<ul>
+										{
+											team.names.map((name: Name) => {
+												const nameLC = name.name.toLowerCase();
+												const fullNameLC = name.fullName.toLowerCase();
+												const isNameHighlighted = isHighlightEnabled && nameLC.indexOf(highlight) >= 0;
+												const isFullNameHighlighted = isHighlightEnabled && fullNameLC.indexOf(highlight) >= 0;
+
+												return (
+													<li
+														key={name.id}
+														className={isHighlightEnabled && (isNameHighlighted || isFullNameHighlighted) ? styles.highlight : ""}>
+														<input
+															type={"checkbox"}
+															checked={props.selectedNameIds.indexOf(name.id) >= 0}
+															id={name.id}
+															onChange={() => onChangeNameIds(name.id)}
+														/>
+														<label htmlFor={name.id}>{name.fullName}</label>
+														<span className={styles.spacer}/>
+														<input
+															type={"checkbox"}
+															checked={props.dashedIds.indexOf(name.id) >= 0}
+															id={`dashed-${name.id}`}
+															onChange={() => onChangeDashedIds(name.id)}
+														/>
+														<label htmlFor={`dashed-${name.id}`}>dashed</label>
+														<span className={styles.spacer}/>
+														<input
+															type={"text"}
+															value={props.graphColors[name.id]}
+															onChange={(e) => onChangeColor(name.id, e.target.value)}
+															placeholder={"Color"}
+														/>
+													</li>
+												);
+											})
+										}
+									</ul>
+								}
+							</li>
+						)
+					})
+				}
+			</ul>
+		</>
 	);
 };
 
