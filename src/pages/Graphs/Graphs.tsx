@@ -6,8 +6,8 @@ import Guides from "./Guides/Guides";
 import Cancellations from "./Cancellations/Cancellations";
 import Box from "./primitives/Box/Box";
 import Legend from "./Legend/Legend";
-import styles from "./Graphs.module.css";
-import { type GraphColor } from "./Graph/Graph";
+import { type GraphColors } from "./Graph/Graph";
+import TeamSelect from "./TeamSelect/TeamSelect";
 
 type GraphsProps = {
   data: DataFormat
@@ -28,11 +28,11 @@ const Graphs = (props: GraphsProps) => {
   const [selectedTeamIds, setSelectedTeamIds] = useState<string[]>([]);
   const [selectedNameIds, setSelectedNameIds] = useState<string[]>([]);
   const [dashedIds, setDashedIds] = useState<string[]>([]);
-  const [graphColors, setGraphColors] = useState<GraphColor>({});
+  const [graphColors, setGraphColors] = useState<GraphColors>({});
 
   const teamIds = Object.keys(props.data.teams);
 
-  const onChangeTeamIds = (value: string) => {
+  /* const onChangeTeamIds = (value: string) => {
     if (selectedTeamIds.indexOf(value) >= 0)
     {
       setSelectedTeamIds(selectedTeamIds.filter((selectedValue: string) => selectedValue !== value));
@@ -67,7 +67,7 @@ const Graphs = (props: GraphsProps) => {
       ...graphColors,
       [id]: newColor
     });
-  };
+  }; */
 
   const getAliasFromId = (id: string) => {
     const alias = props.data.teams[id].alias;
@@ -172,78 +172,16 @@ const Graphs = (props: GraphsProps) => {
   return (
     <div>
       <header><h1>Graphs</h1></header>
-      <ul>
-        {
-          teamIds.map((id: string) => {
-            const team = props.data.teams[id];
-            return (
-              <li key={`checkbox-${team.id}`}>
-                <input
-                  type={"checkbox"}
-                  checked={selectedTeamIds.indexOf(team.id) >= 0}
-                  id={team.id}
-                  onChange={() => onChangeTeamIds(team.id)}
-                />
-                <label htmlFor={team.id}>{team.alias}</label>
-                <span className={styles.spacer}/>
-                <input
-                  type={"checkbox"}
-                  checked={dashedIds.indexOf(team.id) >= 0}
-                  id={`dashed-${team.id}`}
-                  onChange={() => onChangeDashedIds(team.id)}
-                />
-                <label htmlFor={`dashed-${team.id}`}>dashed</label>
-                <span className={styles.spacer}/>
-                <input
-                  type={"text"}
-                  value={graphColors[team.id]}
-                  onChange={(e) => onChangeColor(team.id, e.target.value)}
-                  placeholder={"Color"}
-                />
-                {
-                  team.names.length > 1 &&
-                  <ul>
-                    {
-                      team.names.map((name: Name) => (
-                        <li key={name.id}>
-                          <input
-                            type={"checkbox"}
-                            checked={selectedNameIds.indexOf(name.id) >= 0}
-                            id={name.id}
-                            onChange={() => onChangeNameIds(name.id)}
-                          />
-                          <label htmlFor={name.id}>{name.fullName}</label>
-                          <span className={styles.spacer}/>
-                          <input
-                            type={"checkbox"}
-                            checked={dashedIds.indexOf(name.id) >= 0}
-                            id={`dashed-${name.id}`}
-                            onChange={() => onChangeDashedIds(name.id)}
-                          />
-                          <label htmlFor={`dashed-${name.id}`}>dashed</label>
-                          <span className={styles.spacer}/>
-                          <input
-                            type={"text"}
-                            value={graphColors[name.id]}
-                            onChange={(e) => onChangeColor(name.id, e.target.value)}
-                            placeholder={"Color"}
-                          />
-                        </li>
-                      ))
-                    }
-                  </ul>
-                }
-              </li>
-            )
-          })
-        }
-      </ul>
-      <Box
-        top={GRAPH_MARGIN}
-        right={GRAPH_MARGIN}
-        bottom={GRAPH_MARGIN}
-        left={GRAPH_MARGIN}
-        fill={"white"}
+      <TeamSelect
+        selectedTeamIds={selectedTeamIds}
+        selectedNameIds={selectedNameIds}
+        dashedIds={dashedIds}
+        graphColors={graphColors}
+        onChangeTeamIds={setSelectedTeamIds}
+        onChangeNameIds={setSelectedNameIds}
+        onChangeDashedIds={setDashedIds}
+        onChangeColor={setGraphColors}
+        teams={props.data.teams}
       />
       <div>
         <svg viewBox={`0 0 ${GRAPH_WIDTH} ${GRAPH_HEIGHT}`} xmlns={"http://www.w3.org/2000/svg"} stroke={"red"} fill={"grey"}>
@@ -253,6 +191,13 @@ const Graphs = (props: GraphsProps) => {
               font-weight: bold;
             {"}"}
           </style>
+          <Box
+            top={0}
+            right={GRAPH_WIDTH}
+            bottom={GRAPH_HEIGHT}
+            left={0}
+            fill={"white"}
+          />
           <Tiers
             seasons={props.data.seasons}
             teamCount={teamCount}

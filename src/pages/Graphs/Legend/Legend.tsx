@@ -3,14 +3,14 @@ import { type DataFormat, type Name } from "../../../data/types";
 import { GRAPH_HEIGHT, GRAPH_MARGIN } from "../Graphs";
 import Box from "../primitives/Box/Box";
 import Item from "./Item/Item";
-import { type GraphColor } from "../Graph/Graph";
+import { type GraphColors } from "../Graph/Graph";
 
 type LegendProps = {
   data: DataFormat,
   selectedTeamIds: string[],
   selectedNameIds: string[],
   dashedIds: string[]
-  graphColors: GraphColor
+  graphColors: GraphColors
 };
 
 type LegendItem = {
@@ -18,8 +18,6 @@ type LegendItem = {
   color: string,
   label: string
 };
-
-const ITEM_HEIGHT = 15;
 
 const Legend = (props: LegendProps) => {
   const contentRef = useRef<SVGGElement|null>(null);

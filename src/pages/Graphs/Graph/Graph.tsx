@@ -18,7 +18,7 @@ type HoverContent = {
   rank: number
 };
 
-export type GraphColor = Record<string, string>;
+export type GraphColors = Record<string, string>;
 
 const Graph = (props: GraphProps) => {
   const [hoverContent, setHoverContent] = useState<HoverContent|null>(null);
