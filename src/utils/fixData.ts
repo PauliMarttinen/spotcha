@@ -5,6 +5,6 @@ import { type DataFormat, type League, type Season, type Team } from "../data/ty
  * data format around so this is a function to reaccommodate the data files I
  * already have with hundreds of entries.
  */
-export const fillInMissingData = (data: DataFormat): DataFormat => {
+export const fixData = (data: DataFormat): DataFormat => {
   return data;
 };
