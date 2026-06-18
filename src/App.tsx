@@ -5,7 +5,7 @@ import type {DataFormat} from "./data/types";
 import SeasonEdit from "./pages/SeasonEdit/SeasonEdit";
 import TeamEdit from "./pages/TeamEdit/TeamEdit";
 import Graphs from "./pages/Graphs/Graphs";
-import { fillInMissingData } from "./utils/fillInMissingData";
+import { fixData } from "./utils/fixData";
 
 const App = () => {
   const [page, setPage] = useState<number>(0);
@@ -20,7 +20,7 @@ const App = () => {
   const readJson = (input: string) => {
     try {
       const preliminaryData = JSON.parse(input);
-      if (isDataFine(preliminaryData)) setData(fillInMissingData(preliminaryData));
+      if (isDataFine(preliminaryData)) setData(fixData(preliminaryData));
     } catch (e) {
       throw e;
     };

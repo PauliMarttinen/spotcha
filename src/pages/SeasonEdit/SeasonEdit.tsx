@@ -29,12 +29,12 @@ const SeasonEdit = (props: SeasonEditProps) => {
       leagues: []
     };
 
+    const newSeasons = [...props.data.seasons, newSeason];
+    const sortedSeasons = newSeasons.sort((seasonA: Season, seasonB: Season) => seasonA.year-seasonB.year);
+
     const newData: DataFormat = {
       ...props.data,
-      seasons: [
-        ...props.data.seasons,
-        newSeason
-      ]
+      seasons: sortedSeasons
     };
 
     props.onChange(newData);
